@@ -1,0 +1,5 @@
+#ignore bakup files
+*.bak
+
+#ignore build artifacts
+TouchGFX_generated/TouchGFX/build
