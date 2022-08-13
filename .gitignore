@@ -3,3 +3,4 @@
 
 #ignore build artifacts
 TouchGFX_generated/TouchGFX/build
+CubeMX_generated/TouchGFX/build
