@@ -3,7 +3,24 @@
     "Screens": [
       {
         "Name": "Screen1",
-        "Components": [],
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 40,
+            "Y": 38,
+            "Width": 161,
+            "Height": 49,
+            "TextId": "__SingleUse_0VZP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
         "Interactions": []
       }
     ],
