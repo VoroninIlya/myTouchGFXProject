@@ -682,7 +682,7 @@
     <Filter Include="Header files\TouchGFX\gui\src\model">
       <UniqueIdentifier>{2ad712ed-3327-4a14-8ac0-a63c8e077c84}</UniqueIdentifier>
     </Filter>
-    <Filter Include="lib">
+    <Filter Include="libs">
       <UniqueIdentifier>{61da75c1-d9cb-4d5d-86c0-8c128a4c68c2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -2833,10 +2833,10 @@
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\Middlewares\ST\touchgfx\lib\core\cortex_m4f\gcc\libtouchgfx.a">
-      <Filter>lib</Filter>
+      <Filter>libs</Filter>
     </Library>
     <Library Include="..\Middlewares\ST\touchgfx\lib\core\cortex_m4f\gcc\libtouchgfx-float-abi-hard.a">
-      <Filter>lib</Filter>
+      <Filter>libs</Filter>
     </Library>
   </ItemGroup>
 </Project>

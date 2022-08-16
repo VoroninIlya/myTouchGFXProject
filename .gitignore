@@ -4,9 +4,13 @@
 *.user
 
 #ignore build artifacts
-TouchGFX_generated/TouchGFX/build
 CubeMX_generated/TouchGFX/build
 CubeMX_generated/VisualStudio/.vs
 CubeMX_generated/VisualStudio/.visualgdb
 CubeMX_generated/VisualStudio/Debug
 CubeMX_generated/VisualStudio/Release
+TouchGFX_generated/TouchGFX/build
+TouchGFX_generated/VisualStudio/.vs
+TouchGFX_generated/VisualStudio/.visualgdb
+TouchGFX_generated/VisualStudio/Debug
+TouchGFX_generated/VisualStudio/Release

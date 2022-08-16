@@ -5,22 +5,24 @@
 BINARYDIR := Release
 
 #Additional flags
-PREPROCESSOR_MACROS := NDEBUG=1 RELEASE=1 ST USE_BPP=16 CORE_CM4F STM32F429xx
+PREPROCESSOR_MACROS := NDEBUG=1 RELEASE=1 USE_HAL_DRIVER STM32F429xx
 INCLUDE_DIRS := ../Core/Inc \
-  ../Drivers/BSP/Components/Common \
-  ../Drivers/BSP/Components/ili9341 \
-  ../Drivers/BSP/Components/stmpe811 \
+  ../Drivers/BSP \
   ../Drivers/CMSIS/Device/ST/STM32F4xx/Include \
   ../Drivers/CMSIS/Include \
   ../Drivers/STM32F4xx_HAL_Driver/Inc \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy \
-  ../Middlewares/ST/threadx/common/inc \
-  ../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc \
+  ../Middlewares/ST/touchgfx/3rdparty/libjpeg/include \
+  ../Middlewares/ST/touchgfx/framework/include \
+  ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor \
+  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 \
+  ../Middlewares/Third_Party/FreeRTOS/Source/include \
+  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F \
+  ../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F \
+  ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F \
   ../TouchGFX/App \
-  ../AZURE_RTOS/App \
   ../TouchGFX/target \
   ../TouchGFX/target/generated \
-  ../Middlewares/ST/touchgfx/framework/include \
   ../TouchGFX/generated/fonts/include \
   ../TouchGFX/generated/gui_generated/include \
   ../TouchGFX/generated/images/include \
