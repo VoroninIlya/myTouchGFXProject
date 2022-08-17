@@ -788,6 +788,7 @@
     <None Include="..\Middlewares\ST\threadx\ports\cortex_m4\gnu\src\tx_thread_stack_build.S" />
     <None Include="..\Middlewares\ST\threadx\ports\cortex_m4\gnu\src\tx_thread_system_return.S" />
     <None Include="..\Middlewares\ST\threadx\ports\cortex_m4\gnu\src\tx_timer_interrupt.S" />
+    <None Include="ClassDiagram.cd" />
     <None Include="stm32.mak" />
     <None Include="Makefile" />
     <None Include="debug.mak" />

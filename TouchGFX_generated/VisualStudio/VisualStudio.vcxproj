@@ -578,6 +578,7 @@
     <ClCompile Include="..\Core\Src\sysmem.c" />
     <ClCompile Include="..\Core\Src\system_stm32f4xx.c" />
     <None Include="..\Core\Startup\startup_stm32f429zitx.s" />
+    <None Include="ClassDiagram.cd" />
     <None Include="stm32.mak" />
     <None Include="Makefile" />
     <None Include="debug.mak" />

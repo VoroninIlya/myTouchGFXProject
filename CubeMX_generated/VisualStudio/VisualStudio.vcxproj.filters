@@ -1723,6 +1723,7 @@
     <ClInclude Include="..\TouchGFX\generated\videos\include\videos\VideoDatabase.hpp">
       <Filter>Header files\TouchGFX\generated\videos\include\videos</Filter>
     </ClInclude>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.mak">

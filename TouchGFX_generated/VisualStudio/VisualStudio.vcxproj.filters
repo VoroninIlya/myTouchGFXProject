@@ -2101,6 +2101,7 @@
     <None Include="..\Core\Startup\startup_stm32f429zitx.s">
       <Filter>Source files\Device-specific files</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.mak">
