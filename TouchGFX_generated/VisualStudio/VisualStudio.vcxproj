@@ -192,6 +192,7 @@
     <ClInclude Include="..\TouchGFX\target\generated\TouchGFXGeneratedHAL.hpp" />
     <ClInclude Include="..\TouchGFX\target\STM32TouchController.hpp" />
     <ClInclude Include="..\TouchGFX\target\TouchGFXHAL.hpp" />
+    <None Include="..\gcc\STM32F429ZITX_FLASH.ld" />
     <None Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config.h.cmake" />
     <None Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\license.txt" />
     <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\CacheableContainer.cpp" />

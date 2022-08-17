@@ -201,5 +201,17 @@ SECTIONS
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
   
-  TouchGFX_Framebuffer (NOLOAD) : { *(TouchGFX_Framebuffer) } >SDRAM
+  TouchGFX_Framebuffer (NOLOAD) : 
+  { 
+    *(TouchGFX_Framebuffer) 
+  } >SDRAM
+  
+  .user_sdram_memory (NOLOAD) : 
+  { 
+    . = ALIGN(8);
+    user_sdram_memory = .; /* define a global symbol*/
+    . = . + 7M;
+    . = ALIGN(8);
+  } >SDRAM
+
 }
