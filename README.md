@@ -7,3 +7,4 @@
 
 1. TouchGFX Designer v4.20.0
 2. STM32CubeMX v6.6.1
+3. Visual Studio 2019 + VisualGDB v5.6R4
