@@ -22,6 +22,13 @@
 
 /* USER CODE BEGIN TouchGFXHAL.cpp */
 
+#include "stm32f4xx.h"
+#include <touchgfx/hal/OSWrappers.hpp>
+
+extern "C" {
+	void     LCD_IO_WriteReg(uint8_t Reg);
+}
+
 using namespace touchgfx;
 
 void TouchGFXHAL::initialize()
@@ -33,6 +40,23 @@ void TouchGFXHAL::initialize()
     // Please note, HAL::initialize() must be called to initialize the framework.
 
     TouchGFXGeneratedHAL::initialize();
+}
+
+void TouchGFXHAL::taskEntry()
+{
+	enableLCDControllerInterrupt();
+	enableInterrupts();
+
+	OSWrappers::waitForVSync();
+	backPorchExited();
+
+	LCD_IO_WriteReg(0x29);
+
+	for (;;)
+	{
+		OSWrappers::waitForVSync();
+		backPorchExited();
+	}
 }
 
 /**

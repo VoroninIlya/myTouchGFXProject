@@ -220,17 +220,16 @@ board_include_paths := \
     Drivers/CMSIS/Device/ST/STM32F4xx/Include \
     Drivers/CMSIS/Include \
     Drivers/BSP \
-    Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
 
 asm_source_files := $(makefile_path_relative)/startup_stm32f429zitx.s \
-	$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_stack_build.S \
-	$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_schedule.S \
-	$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_timer_interrupt.S \
-	Core/Src/tx_initialize_low_level.s
-    #$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_system_return.S \
-    #$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S \
-    #$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_save.S \
-    #$(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_restore.S 
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_stack_build.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_schedule.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_timer_interrupt.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_system_return.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_save.S \
+    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_restore.S \
+    Core/Src/tx_initialize_low_level.s
 
 c_compiler_options +=
 cpp_compiler_options +=

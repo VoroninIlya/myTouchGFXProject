@@ -95,6 +95,7 @@ VOID tx_application_define(VOID *first_unused_memory)
 
   /* USER CODE BEGIN DYNAMIC_MEM_ALLOC */
   (void)first_unused_memory;
+  MX_TouchGFX_Init((VOID *)first_unused_memory);
   /* USER CODE END DYNAMIC_MEM_ALLOC */
 }
 

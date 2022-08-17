@@ -7,9 +7,7 @@ BINARYDIR := Release
 #Additional flags
 PREPROCESSOR_MACROS := NDEBUG=1 RELEASE=1 ST USE_BPP=16 CORE_CM4F STM32F429xx
 INCLUDE_DIRS := ../Core/Inc \
-  ../Drivers/BSP/Components/Common \
-  ../Drivers/BSP/Components/ili9341 \
-  ../Drivers/BSP/Components/stmpe811 \
+  ../Drivers/BSP \
   ../Drivers/CMSIS/Device/ST/STM32F4xx/Include \
   ../Drivers/CMSIS/Include \
   ../Drivers/STM32F4xx_HAL_Driver/Inc \
