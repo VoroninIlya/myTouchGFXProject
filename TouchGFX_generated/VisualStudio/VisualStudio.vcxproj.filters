@@ -2102,6 +2102,9 @@
       <Filter>Source files\Device-specific files</Filter>
     </None>
     <None Include="ClassDiagram.cd" />
+    <None Include="..\gcc\STM32F429ZITX_FLASH.ld">
+      <Filter>Source files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.mak">
