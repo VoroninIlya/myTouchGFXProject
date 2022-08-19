@@ -103,9 +103,14 @@ c_source_paths := \
   Drivers/BSP/Components/stmpe811 \
   Drivers/BSP/Components/ili9341 \
   Middlewares/ST/threadx/common/src \
+  Middlewares/ST/filex/common/src \
+  Middlewares/ST/usbx/common/core/src \
+  Middlewares/ST/usbx/common/usbx_device_classes/src \
   Core/Src \
   AZURE_RTOS/App \
-  TouchGFX/App
+  TouchGFX/App \
+  FileX/App \
+  USBX/App 
 
 asm_source_paths := \
   gcc \
@@ -288,8 +293,8 @@ endif
 
 #"C:\Program Files (x86)\Sysprogs\VisualGDB\make.exe" dev
 dev: 
-	@echo cpp_source_paths $(cpp_source_paths)
-	@echo cpp_files $(cpp_files)
+	@echo c_source_paths $(c_source_paths)
+	@echo c_files $(c_files)
 
 $(BINARYDIR):
 	mkdir $(BINARYDIR)
@@ -359,6 +364,15 @@ $(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/
 # ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph 
 $(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/%.cpp $(all_make_files) |$(BINARYDIR)           
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/filex/common/src 
+$(BINARYDIR)/%.o : ../Middlewares/ST/filex/common/src/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/usbx/common/core/src 
+$(BINARYDIR)/%.o : ../Middlewares/ST/usbx/common/core/src/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/usbx/common/usbx_device_classes/src 
+$(BINARYDIR)/%.o : ../Middlewares/ST/usbx/common/usbx_device_classes/src/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 # ../TouchGFX/generated/gui_generated/src/common
 $(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/common/%.cpp $(all_make_files) |$(BINARYDIR) 
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
@@ -399,7 +413,13 @@ $(BINARYDIR)/%.o : ../TouchGFX/target/%.cpp $(all_make_files) |$(BINARYDIR)
 $(BINARYDIR)/%.o : ../TouchGFX/App/%.c $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 # ../AZURE_RTOS/App
-$(BINARYDIR)/%.o : ../AZURE_RTOS/App/%.c $(all_make_files) |$(BINARYDIR)                         
+$(BINARYDIR)/%.o : ../AZURE_RTOS/App/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../FileX/App
+$(BINARYDIR)/%.o : ../FileX/App/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../USBX/App
+$(BINARYDIR)/%.o : ../USBX/App/%.c $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 # ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc
 $(BINARYDIR)/%.a : ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/%.a

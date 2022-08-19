@@ -721,6 +721,210 @@
     <Filter Include="Header files\TouchGFX\gui\src\touch_callib_screen">
       <UniqueIdentifier>{390f3f13-4ba2-4174-ae1d-00db90c8835e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex">
+      <UniqueIdentifier>{e67a2cfa-db22-48d0-8723-ffa59f86a469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\common">
+      <UniqueIdentifier>{fce7df4a-6398-4bee-b86c-b0d8bcfbf807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\common\inc">
+      <UniqueIdentifier>{4906c9e2-ae0a-4243-83ec-c561093fafec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\common\src">
+      <UniqueIdentifier>{e837c750-8d45-4a52-b94b-3d3c70c02f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\ports">
+      <UniqueIdentifier>{529efb1a-8847-4da2-b0ce-87f88a8c730e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\ports\generic">
+      <UniqueIdentifier>{8090a8e7-5b1b-44a3-8317-32af02bd79ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\filex\ports\generic\inc">
+      <UniqueIdentifier>{f6810124-bcc4-4771-b6b7-f37ab82b3b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty">
+      <UniqueIdentifier>{eb4535f5-a6d7-433b-85cd-f589ebe5225c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty\libjpeg">
+      <UniqueIdentifier>{a7a9462d-2b3e-4ce8-b42b-92a787a3ab91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include">
+      <UniqueIdentifier>{f2681af4-4ccf-4dfa-9923-f95ffbcb4cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform">
+      <UniqueIdentifier>{f69032b2-544a-45b9-b8d2-9081da39cd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\driver">
+      <UniqueIdentifier>{5ed927fa-f028-4ee2-9511-c113215bc043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\driver\touch">
+      <UniqueIdentifier>{25b595aa-bcc6-42c0-b394-c0c07047e8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal">
+      <UniqueIdentifier>{48eea383-8606-4ddc-87ec-137285e96b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator">
+      <UniqueIdentifier>{0f4bc9a0-38ab-4a07-b7a7-620b16169c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2">
+      <UniqueIdentifier>{0d00e8f5-2adc-4923-82e4-0c90ead8b621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib">
+      <UniqueIdentifier>{a55dc916-04ad-4065-b2ee-8ed1bc2bf6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib\sdl2">
+      <UniqueIdentifier>{29469d80-ca0e-49fd-aefb-3005f661be4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib\sdl2\win32">
+      <UniqueIdentifier>{5e5bd000-5012-49ad-83ac-56d4f981b7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\os">
+      <UniqueIdentifier>{b14ac809-d841-4832-b68e-d7b459a5a1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx">
+      <UniqueIdentifier>{fd5b2b88-1924-48f5-9696-aa4511deac12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common">
+      <UniqueIdentifier>{e4a99674-1fef-4d6a-a3a0-c76d17976803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\core">
+      <UniqueIdentifier>{77b75d2f-44ee-4848-9753-ddc33a461cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\core\inc">
+      <UniqueIdentifier>{87e96ba0-e780-4570-8668-b0728cff5d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\core\src">
+      <UniqueIdentifier>{c7a1ea0b-ad50-49be-8036-db7542eda0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\usbx_device_classes">
+      <UniqueIdentifier>{2f619440-e501-4982-bea0-ffda3e5ec90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\usbx_device_classes\inc">
+      <UniqueIdentifier>{a8e0f523-b196-4bf4-a3fb-18120144e4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\common\usbx_device_classes\src">
+      <UniqueIdentifier>{0199b64c-ca57-4888-bad9-a394787493f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\ports">
+      <UniqueIdentifier>{f4272557-f915-4f21-858f-1c879a33e705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\ports\generic">
+      <UniqueIdentifier>{5c6f774a-183e-43a1-8eb5-7f0357bf60ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\usbx\ports\generic\inc">
+      <UniqueIdentifier>{a32db84a-9b3b-4b67-85d1-a561ab9ba210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex">
+      <UniqueIdentifier>{d5fb351a-3432-41c2-a90f-f959c095c707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\common">
+      <UniqueIdentifier>{a29d36fc-6dcf-43ad-b504-5284090e6079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\common\inc">
+      <UniqueIdentifier>{5ef94129-3c47-4533-ac1f-1b1bfdcdad90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\common\src">
+      <UniqueIdentifier>{492f67ab-0534-464a-8b35-ff9430057b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\ports">
+      <UniqueIdentifier>{f473e201-f128-44ea-b690-fbf66829273a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\ports\generic">
+      <UniqueIdentifier>{98d12cae-042b-40d2-972b-684caeb30623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\filex\ports\generic\inc">
+      <UniqueIdentifier>{28b58609-eaf7-4e02-a87e-0cb808b510d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty">
+      <UniqueIdentifier>{0258e80c-8415-4712-84df-4c090216bf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg">
+      <UniqueIdentifier>{42a3df23-d280-456e-8c14-38ab8d790830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include">
+      <UniqueIdentifier>{dd3f3f95-149f-423d-bf3c-3607dcd28820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform">
+      <UniqueIdentifier>{4ca6ea55-ca3d-48be-879c-eac5f066bf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\core">
+      <UniqueIdentifier>{9015b3da-251f-4afa-8275-6beb04ad180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\driver">
+      <UniqueIdentifier>{ae994e5a-309c-4e1e-9ae5-3958f4461a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\button">
+      <UniqueIdentifier>{78cad83e-4b95-4b23-97ee-cbdfce928fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\i2c">
+      <UniqueIdentifier>{40d8f679-ac6a-4c06-ad0e-77570a197d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd">
+      <UniqueIdentifier>{af8e4076-0a1f-4b64-9d5d-7be1fabc3dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch">
+      <UniqueIdentifier>{22115490-7fc2-4eae-b9e2-14b8db32b5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\hal">
+      <UniqueIdentifier>{2acbba51-8b64-4bd4-be64-795a2b5fef4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator">
+      <UniqueIdentifier>{76799c81-be3a-40fa-95a3-c3b62b248a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2">
+      <UniqueIdentifier>{f2e9e648-54b4-44cf-b3af-d195b50ee317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor">
+      <UniqueIdentifier>{3fcb0726-4b80-489b-bca2-016eeaa77282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2">
+      <UniqueIdentifier>{98786218-322d-47ac-8ed6-272b58f6453f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib">
+      <UniqueIdentifier>{ca0d9f37-e5dd-4d30-89c5-25d4df24266b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib\sdl2">
+      <UniqueIdentifier>{a9e0824c-831e-40fa-a54b-750a72776b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib\sdl2\win32">
+      <UniqueIdentifier>{9f95ff50-ba91-4e06-9102-583d77a8e056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\os">
+      <UniqueIdentifier>{da2b7583-4ae9-4766-8ed0-fa63b915aa64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx">
+      <UniqueIdentifier>{bf99bcf8-399a-4f07-a473-e45c864e4319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common">
+      <UniqueIdentifier>{cf0e0210-cce7-4bf7-b621-5e2409e3f13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\core">
+      <UniqueIdentifier>{6dbb2f67-4d49-4008-a716-fe005cdeaf67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\core\inc">
+      <UniqueIdentifier>{701a36cc-6a13-4746-abb8-c7e0e162f291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\core\src">
+      <UniqueIdentifier>{91864af7-e750-4963-bc6f-1dfebb6e606f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\usbx_device_classes">
+      <UniqueIdentifier>{544702e5-a93b-44a5-ab1b-4d555004059e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc">
+      <UniqueIdentifier>{e7e4e99e-41be-495c-8cf9-de084a832007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\common\usbx_device_classes\src">
+      <UniqueIdentifier>{748e464c-9594-4686-84ca-8bff64d92224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\ports">
+      <UniqueIdentifier>{d4404e54-ceb9-4bed-879e-d067feb65b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\ports\generic">
+      <UniqueIdentifier>{95f9b7b5-bd3f-4877-81cf-7909f5951481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\usbx\ports\generic\inc">
+      <UniqueIdentifier>{8143597a-b9fa-4634-868d-3889d422a4e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Makefile" />
@@ -1789,6 +1993,1518 @@
     </ClInclude>
     <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen\touch_callibViewBase.hpp">
       <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen</Filter>
+    </ClInclude>
+    <None Include="..\Middlewares\ST\filex\LICENSE.txt">
+      <Filter>Source files\Middlewares\ST\filex</Filter>
+    </None>
+    <None Include="..\Middlewares\ST\filex\LICENSED-HARDWARE.txt">
+      <Filter>Source files\Middlewares\ST\filex</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_attributes_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_attributes_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_default_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_default_get_copy.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_default_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_delete.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_first_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_first_full_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_information_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_local_path_clear.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_local_path_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_local_path_get_copy.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_local_path_restore.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_local_path_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_long_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_long_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_name_test.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_next_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_next_full_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_short_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_directory_short_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_fault_tolerant_enable.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_attributes_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_attributes_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_best_effort_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_close.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_date_time_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_delete.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_best_effort_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_relative_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_truncate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_extended_truncate_release.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_open.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_relative_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_truncate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_truncate_release.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_file_write_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_abort.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_cache_invalidate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_check.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_close.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_close_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_exFAT_format.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_extended_space_available.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_format.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_open.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_open_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_space_available.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_volume_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_volume_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_volume_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_media_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_system_date_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_system_date_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_system_time_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_system_time_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_directory_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_directory_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_file_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_file_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_short_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fxe_unicode_short_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_attributes_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_attributes_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_default_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_default_get_copy.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_default_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_delete.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_entry_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_entry_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_exFAT_entry_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_exFAT_entry_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_exFAT_free_search.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_exFAT_unicode_entry_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_first_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_first_full_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_free_search.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_information_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_local_path_clear.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_local_path_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_local_path_get_copy.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_local_path_restore.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_local_path_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_long_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_long_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_name_extract.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_name_test.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_next_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_next_full_entry_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_search.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_short_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_directory_short_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_add_bitmap_log.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_add_checksum_log.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_add_dir_log.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_add_FAT_log.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_apply_logs.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_calculate_checksum.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_cleanup_FAT_chain.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_create_log_file.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_enable.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_read_directory_sector.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_read_FAT.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_read_log_file.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_recover.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_reset_log_file.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_set_FAT_chain.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_transaction_end.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_transaction_fail.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_transaction_start.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_fault_tolerant_write_log_file.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_attributes_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_attributes_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_best_effort_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_close.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_date_time_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_delete.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_best_effort_allocate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_relative_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_truncate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_extended_truncate_release.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_open.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_relative_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_seek.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_truncate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_truncate_release.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_file_write_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_abort.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_boot_info_extract.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_cache_invalidate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_check.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_check_FAT_chain_check.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_check_lost_cluster_check.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_close.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_close_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_exFAT_format.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_extended_space_available.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_format.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_format_oem_name_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_format_type_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_format_volume_id_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_open.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_open_notify_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_space_available.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_volume_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_volume_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_volume_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_media_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_partition_offset_calculate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_date_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_date_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_initialize.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_timer_entry.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_time_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_system_time_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_trace_event_insert.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_trace_event_update.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_trace_object_register.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_trace_object_unregister.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_directory_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_directory_entry_change.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_directory_entry_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_directory_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_directory_search.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_file_create.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_file_rename.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_length_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_length_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_short_name_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_unicode_short_name_get_extended.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_16_unsigned_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_16_unsigned_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_32_unsigned_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_32_unsigned_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_64_unsigned_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_64_unsigned_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_absolute_path_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_allocate_new_cluster.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_cache_prepare.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_cache_update.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_free_cluster_find.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_initialize.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_bitmap_start_sector_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_cluster_free.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_cluster_state_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_cluster_state_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_geometry_check.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_name_hash_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_size_calculate.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_system_area_checksum_verify.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_system_area_checksum_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_system_area_format.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_system_sector_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_unicode_name_hash_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_exFAT_upcase_table.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_FAT_entry_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_FAT_entry_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_FAT_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_FAT_map_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_FAT_sector_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_logical_sector_cache_entry_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_logical_sector_flush.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_logical_sector_read.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_logical_sector_write.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_memory_copy.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_memory_set.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_string_length_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\filex\common\src\fx_utility_token_length_get.c">
+      <Filter>Source files\Middlewares\ST\filex\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\driver\touch\SDL2TouchController.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\driver\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\HALSDL2.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\HALSDL2_icon.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <None Include="..\Middlewares\ST\touchgfx\lib\sdl2\win32\README-SDL.txt">
+      <Filter>Source files\Middlewares\ST\touchgfx\lib\sdl2\win32</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\os\OSWrappers.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\os\OSWrappers_cmsis.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\os</Filter>
+    </ClCompile>
+    <None Include="..\Middlewares\ST\usbx\LICENSE.txt">
+      <Filter>Source files\Middlewares\ST\usbx</Filter>
+    </None>
+    <None Include="..\Middlewares\ST\usbx\LICENSED-HARDWARE.txt">
+      <Filter>Source files\Middlewares\ST\usbx</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_alternate_setting_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_alternate_setting_set.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_class_register.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_class_unregister.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_clear_feature.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_configuration_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_configuration_set.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_control_request_process.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_descriptor_send.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_disconnect.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_endpoint_stall.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_get_status.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_host_wakeup.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_initialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_interface_delete.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_interface_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_interface_set.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_interface_start.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_microsoft_extension_register.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_set_feature.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_transfer_abort.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_transfer_all_request_abort.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_transfer_request.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_device_stack_uninitialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_system_error_handler.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_system_initialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_system_uninitialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_debug_callback_register.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_debug_log.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_delay_ms.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_descriptor_pack.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_descriptor_parse.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_error_callback_register.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_event_flags_create.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_event_flags_delete.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_event_flags_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_event_flags_set.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_long_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_long_get_big_endian.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_long_put.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_long_put_big_endian.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_allocate.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_allocate_add_safe.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_allocate_mulc_safe.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_allocate_mulv_safe.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_compare.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_copy.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_free.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_free_block_best_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_memory_set.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_mutex_create.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_mutex_delete.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_mutex_off.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_mutex_on.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_pci_class_scan.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_pci_read.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_pci_write.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_physical_address.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_semaphore_create.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_semaphore_delete.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_semaphore_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_semaphore_put.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_set_interrupt_handler.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_short_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_short_get_big_endian.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_short_put.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_short_put_big_endian.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_string_length_check.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_string_length_get.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_string_to_unicode.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_create.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_delete.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_identify.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_relinquish.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_resume.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_schedule_other.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_sleep.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_thread_suspend.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_timer_create.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_unicode_to_string.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\core\src\ux_utility_virtual_address.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_activate.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_control_request.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_csw_send.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_deactivate.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_entry.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_format.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_get_configuration.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_get_performance.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_get_status_notification.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_initialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_inquiry.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_mode_select.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_mode_sense.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_prevent_allow_media_removal.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read_capacity.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read_disk_information.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read_dvd_structure.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read_format_capacity.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_read_toc.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_report_key.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_request_sense.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_start_stop.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_synchronize_cache.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_test_ready.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_thread.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_uninitialize.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_verify.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\usbx\common\usbx_device_classes\src\ux_device_class_storage_write.c">
+      <Filter>Source files\Middlewares\ST\usbx\common\usbx_device_classes\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_api.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_directory.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_directory_exFAT.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_fault_tolerant.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_file.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_media.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_system.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_unicode.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_user_sample.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\common\inc\fx_utility.h">
+      <Filter>Header files\Middlewares\ST\filex\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\filex\ports\generic\inc\fx_port.h">
+      <Filter>Header files\Middlewares\ST\filex\ports\generic\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\cderror.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\cdjpeg.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jconfig.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jdct.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jerror.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jinclude.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jmemsys.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jmorecfg.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jpegint.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jpeglib.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jversion.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\transupp.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\core\MCUInstrumentation.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\button\ButtonController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\i2c\I2C.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\i2c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD16bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD16bppSerialFlash.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD1bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD24bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD2bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD32bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD32bpp_XRGB8888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD4bpp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD8bpp_ABGR2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD8bpp_ARGB2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD8bpp_BGRA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd\LCD8bpp_RGBA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\touch\I2CTouchController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\touch\NoTouchController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\touch\SDL2TouchController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\touch\SDLTouchController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\driver\touch\TouchController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\HALSDL2.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\begin_code.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\close_code.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_assert.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_atomic.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_audio.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_bits.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_blendmode.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_clipboard.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_android.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_iphoneos.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_macosx.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_minimal.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_pandora.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_psp.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_windows.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_winrt.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config_wiz.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_copying.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_cpuinfo.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_egl.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_endian.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_error.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_events.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_filesystem.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_gamecontroller.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_gesture.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_haptic.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_hints.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_image.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_joystick.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_keyboard.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_keycode.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_loadso.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_log.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_main.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_messagebox.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_mouse.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_mutex.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_name.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengl.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles2.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles2_gl2.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles2_gl2ext.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles2_gl2platform.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengles2_khrplatform.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_opengl_glext.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_pixels.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_platform.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_power.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_quit.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_rect.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_render.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_revision.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_rwops.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_scancode.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_shape.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_stdinc.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_surface.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_system.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_syswm.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_assert.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_common.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_compare.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_crc32.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_font.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_fuzzer.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_harness.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_images.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_log.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_md5.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_test_random.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_thread.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_timer.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_touch.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_types.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_version.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_video.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_api.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_dcd_sim_slave.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_device_class_dpump.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_device_stack.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_hcd_sim_host.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_host_class_dpump.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_host_stack.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_system.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_user_sample.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\core\inc\ux_utility.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\core\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_audio.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_audio10.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_audio20.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_cdc_acm.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_cdc_ecm.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_dfu.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_hid.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_pima.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_printer.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_rndis.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\common\usbx_device_classes\inc\ux_device_class_storage.h">
+      <Filter>Header files\Middlewares\ST\usbx\common\usbx_device_classes\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\usbx\ports\generic\inc\ux_port.h">
+      <Filter>Header files\Middlewares\ST\usbx\ports\generic\inc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

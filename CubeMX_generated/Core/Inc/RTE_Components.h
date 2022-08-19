@@ -23,6 +23,9 @@
 
 /* Defines ------------------------------------------------------------------*/
 /* STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0 */
+#define USBXDEVICE_ENABLED
+#define UX_DEVICE_STORAGE
+#define FILEX_ENABLED
 #define THREADX_ENABLED
 /* STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0 */
 #define TOUCHGFX_APP

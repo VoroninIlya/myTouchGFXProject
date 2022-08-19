@@ -20,12 +20,14 @@ makefile_name := $(subst $(call sq,$(application_path))/,,$(call sq,$(abspath $(
 makefile_path_relative := $(subst $(call sq,$(application_path))/,,$(call sq,$(abspath $(call sq,$(makefile_path)))))
 
 # Get path to Middlewares
-touchgfx_middlewares_path := Middlewares
+middlewares_path := Middlewares
 
 # Get path to Drivers
 Drivers_path := Drivers
 
-touchgfx_os_path := $(touchgfx_middlewares_path)/ST/threadx
+middlewares_components_path := \
+  $(middlewares_path)/ST/filex \
+  $(middlewares_path)/ST/usbx \
 
 # Get identification of this system
 ifeq ($(OS),Windows_NT)
@@ -53,7 +55,9 @@ flash intflash: all
 # Additional components can be added to this list. make will look for
 # source files recursively in comp_name/src and setup an include directive
 # for comp_name/include.
-components := TouchGFX/gui target TouchGFX/generated/gui_generated
+components := TouchGFX/gui \
+  TouchGFX/target \
+  TouchGFX/generated/gui_generated 
 touchgfx_generator_components := TouchGFX/target TouchGFX/App
 cubemx_components := Core Drivers/STM32F4xx_HAL_Driver
 
@@ -82,11 +86,20 @@ include $(application_path)/TouchGFX/config/gcc/app.mk
 # corrects TouchGFX Path
 touchgfx_path := ${subst ../,,$(touchgfx_path)}
 
-os_source_path := $(touchgfx_os_path)/common/src
+middlewares_source_paths := \
+  Middlewares/ST/threadx/common/src \
+  Middlewares/ST/filex/common/src \
+  Middlewares/ST/usbx/common/core/src \
+  Middlewares/ST/usbx/common/usbx_device_classes/src 
 
-os_include_paths := \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/inc \
-    $(touchgfx_os_path)/common/inc
+middlewares_include_paths := \
+  Middlewares/ST/threadx/ports/cortex_m4/gnu/inc \
+  Middlewares/ST/threadx/common/inc \
+  Middlewares/ST/filex/common/inc \
+  Middlewares/ST/filex/ports/generic/inc \
+  Middlewares/ST/usbx/common/core/inc \
+  Middlewares/ST/usbx/common/usbx_device_classes/inc \
+  Middlewares/ST/usbx/ports/generic/inc 
 
 
 ifeq ($(UNAME), Linux)
@@ -163,11 +176,16 @@ linker_options += -mcpu=cortex-m4 -march=armv7e-m -Wno-psabi $(float_options)
 #include everything + specific vendor folders
 framework_includes := $(touchgfx_path)/framework/include
 
+app_includes := AZURE_RTOS/App \
+  FileX/App \
+  USBX/App \
+  USBX/Target
+
 #this needs to change when assset include folder changes.
 all_components := $(components) \
 	$(asset_fonts_output) \
 	$(asset_images_output) \
-	$(asset_texts_output)
+	$(asset_texts_output) 
 
 #keep framework include and source out of this mess! :)
 include_paths := $(library_includes) \
@@ -175,12 +193,14 @@ include_paths := $(library_includes) \
     $(foreach comp, $(cubemx_components), $(comp)/Inc) \
     $(foreach comp, $(touchgfx_generator_components), $(comp)/generated) \
     $(framework_includes) \
-    $(os_include_paths) \
-    $(touchgfx_generator_components)
+    $(middlewares_include_paths) \
+    $(touchgfx_generator_components) \
+    $(app_includes)
 
 source_paths = $(foreach comp, $(all_components), $(comp)/src) \
     $(foreach comp, $(cubemx_components), $(comp)/Src) \
-    $(touchgfx_generator_components)
+    $(touchgfx_generator_components) \
+    $(app_includes)
 
 # Finds files that matches the specified pattern. The directory list
 # is searched recursively. It is safe to invoke this function with an
@@ -222,27 +242,24 @@ board_include_paths := \
     Drivers/BSP \
 
 asm_source_files := $(makefile_path_relative)/startup_stm32f429zitx.s \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_stack_build.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_schedule.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_timer_interrupt.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_system_return.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_save.S \
-    $(touchgfx_os_path)/ports/cortex_m4/gnu/src/tx_thread_context_restore.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S \
+    Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S \
     Core/Src/tx_initialize_low_level.s
 
 c_compiler_options +=
 cpp_compiler_options +=
 
-include_paths += platform/os $(board_include_paths) $(os_include_paths)
+include_paths += platform/os $(board_include_paths) $(middlewares_include_paths)
 
-os_source_files := $(call find, $(os_source_path),*.c)
+middlewares_source_files := $(call find, $(middlewares_source_paths),*.c)
 
-c_source_files := $(call find, $(source_paths),*.c) $(os_source_files) $(board_c_files)
+c_source_files := $(call find, $(source_paths),*.c) $(middlewares_source_files) $(board_c_files)
 source_files += $(board_cpp_files)
-source_files += AZURE_RTOS/App/app_azure_rtos.c \
-    
-
 
 object_files := $(source_files) $(c_source_files)
 # Start converting paths
@@ -340,7 +357,7 @@ $(object_output_path)/%.o: %.s TouchGFX/config/gcc/app.mk
 	@mkdir -p $(@D)
 	@$(assembler) \
 		$(assembler_options) \
-		$(patsubst %,-I %,$(os_include_paths)) \
+		$(patsubst %,-I %,$(middlewares_include_paths)) \
 		-c $< -o $@
 
 ifeq ($(MAKECMDGOALS),build_executable)

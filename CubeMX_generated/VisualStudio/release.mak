@@ -6,25 +6,7 @@ BINARYDIR := Release
 
 #Additional flags
 PREPROCESSOR_MACROS := NDEBUG=1 RELEASE=1 ST USE_BPP=16 CORE_CM4F STM32F429xx
-INCLUDE_DIRS := ../Core/Inc \
-  ../Drivers/BSP \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include \
-  ../Drivers/CMSIS/Include \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy \
-  ../Middlewares/ST/threadx/common/inc \
-  ../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc \
-  ../TouchGFX/App \
-  ../AZURE_RTOS/App \
-  ../TouchGFX/target \
-  ../TouchGFX/target/generated \
-  ../Middlewares/ST/touchgfx/framework/include \
-  ../TouchGFX/generated/fonts/include \
-  ../TouchGFX/generated/gui_generated/include \
-  ../TouchGFX/generated/images/include \
-  ../TouchGFX/generated/texts/include \
-  ../TouchGFX/generated/videos/include \
-  ../TouchGFX/gui/include
+INCLUDE_DIRS := ../Core/Inc ../Drivers/BSP ../Drivers/CMSIS/Device/ST/STM32F4xx/Include ../Drivers/CMSIS/Include ../Drivers/STM32F4xx_HAL_Driver/Inc ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy ../Middlewares/ST/threadx/common/inc ../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc ../TouchGFX/App ../AZURE_RTOS/App ../TouchGFX/target ../TouchGFX/target/generated ../Middlewares/ST/touchgfx/framework/include ../TouchGFX/generated/fonts/include ../TouchGFX/generated/gui_generated/include ../TouchGFX/generated/images/include ../TouchGFX/generated/texts/include ../TouchGFX/generated/videos/include ../TouchGFX/gui/include ../Middlewares/ST/filex/common/inc ../Middlewares/ST/filex/ports/generic/inc ../Middlewares/ST/touchgfx/3rdparty/libjpeg/include ../Middlewares/ST/touchgfx/framework/include/common ../Middlewares/ST/touchgfx/framework/include/mvp ../Middlewares/ST/touchgfx/framework/include/platform/core ../Middlewares/ST/touchgfx/framework/include/platform/driver/button ../Middlewares/ST/touchgfx/framework/include/platform/driver/i2c ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2 ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2 ../Middlewares/ST/touchgfx/framework/include/touchgfx ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers ../Middlewares/ST/touchgfx/framework/include/touchgfx/events ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins ../Middlewares/ST/touchgfx/framework/include/touchgfx/transforms ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph ../Middlewares/ST/usbx/common/core/inc ../Middlewares/ST/usbx/common/usbx_device_classes/inc ../Middlewares/ST/usbx/ports/generic/inc
 LIBRARY_DIRS := 
 LIBRARY_NAMES := 
 ADDITIONAL_LINKER_INPUTS := 

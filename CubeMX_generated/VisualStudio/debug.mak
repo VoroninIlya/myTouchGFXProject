@@ -6,7 +6,8 @@ BINARYDIR := Debug
 
 #Additional flags
 PREPROCESSOR_MACROS := DEBUG=1 ST USE_BPP=16 CORE_CM4F STM32F429xx
-INCLUDE_DIRS := ../Core/Inc \
+INCLUDE_DIRS := \
+  ../Core/Inc \
   ../Drivers/BSP \
   ../Drivers/CMSIS/Device/ST/STM32F4xx/Include \
   ../Drivers/CMSIS/Include \
@@ -15,6 +16,9 @@ INCLUDE_DIRS := ../Core/Inc \
   ../Middlewares/ST/threadx/common/inc \
   ../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc \
   ../TouchGFX/App \
+  ../FileX/App \
+  ../USBX/App \
+  ../USBX/Target \
   ../AZURE_RTOS/App \
   ../TouchGFX/target \
   ../TouchGFX/target/generated \
@@ -24,7 +28,14 @@ INCLUDE_DIRS := ../Core/Inc \
   ../TouchGFX/generated/images/include \
   ../TouchGFX/generated/texts/include \
   ../TouchGFX/generated/videos/include \
-  ../TouchGFX/gui/include
+  ../TouchGFX/gui/include \
+  ../Middlewares/ST/filex/common/inc \
+  ../Middlewares/ST/filex/ports/generic/inc \
+  ../Middlewares/ST/touchgfx/3rdparty/libjpeg/include \
+  ../Middlewares/ST/touchgfx/framework/include \
+  ../Middlewares/ST/usbx/common/core/inc \
+  ../Middlewares/ST/usbx/common/usbx_device_classes/inc \
+  ../Middlewares/ST/usbx/ports/generic/inc
 
 LIBRARY_DIRS := 
 LIBRARY_NAMES := 
