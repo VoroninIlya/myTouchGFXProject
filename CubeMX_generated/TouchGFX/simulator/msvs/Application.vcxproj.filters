@@ -130,65 +130,71 @@
     <Filter Include="Source Files\generated\simulator">
       <UniqueIdentifier>{C07B02B9-A55E-47AA-AD61-59A6AAD754E6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui">
-      <UniqueIdentifier>5FFE5746-D689-8E90-6C8D-ECD1BFD86C25</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\gui">
-      <UniqueIdentifier>C94C7572-EDC9-4472-B4AE-8CF845347BDA</UniqueIdentifier>
+      <UniqueIdentifier>22F05D2F-B47C-39D3-532F-7F7F25D52452</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\model">
-      <UniqueIdentifier>56ABC65C-D660-96C3-64B0-116EAE48CE30</UniqueIdentifier>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>A5FB3668-1D90-48A0-F532-4A0AEC65C1B5</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\generated\gui_generated">
-      <UniqueIdentifier>CFACA861-749C-90E6-B51D-53C7C0BF4CCA</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\common">
-      <UniqueIdentifier>909FE864-59CC-04F7-C080-36FA7EDEF890</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\gui\common">
-      <UniqueIdentifier>2CBE8443-B871-9C18-D876-F9F685A321C4</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\model">
-      <UniqueIdentifier>412C33CA-BB97-D21E-147D-013359AB0FE5</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\main_screen">
-      <UniqueIdentifier>8A16BC53-AD36-7388-1CF2-686CE0FDA854</UniqueIdentifier>
+      <UniqueIdentifier>1F9BD491-F348-F00B-FAAC-7204D9AECB4D</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\gui_generated">
-      <UniqueIdentifier>3F6BDAF9-7D2D-AA41-01DF-153179F40575</UniqueIdentifier>
+      <UniqueIdentifier>7F512C54-06FE-A3B6-B173-D2E4183B9EED</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\main_screen">
-      <UniqueIdentifier>3F77AD33-B490-5FA8-FC1D-AF33E1D35F34</UniqueIdentifier>
+    <Filter Include="Header Files\gui\common">
+      <UniqueIdentifier>1B5BB684-8FFC-53D4-52F3-A9509CBB2BF2</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\common">
-      <UniqueIdentifier>60C395AE-4A38-060B-2DC5-739A3261249E</UniqueIdentifier>
+    <Filter Include="Header Files\gui\model">
+      <UniqueIdentifier>FBF7CCE6-F373-532F-A0CC-140F21783AEA</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\simulator\video">
-      <UniqueIdentifier>69ECEFAD-C766-B77F-8B8B-6A37B68B6375</UniqueIdentifier>
+    <Filter Include="Source Files\gui\model">
+      <UniqueIdentifier>FE5B36AA-15D0-8305-EAB6-03DB26941219</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\common\ScrollingWheels">
-      <UniqueIdentifier>D34434D7-71B8-63E5-D821-F70E6433571A</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\simulator\include">
-      <UniqueIdentifier>CFD80B2F-BE68-5074-D1C1-DDD51CB50267</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\common\ScrollingWheels">
-      <UniqueIdentifier>64DF0B9A-AEA1-B70C-7EEC-133312E79356</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\main_screen">
-      <UniqueIdentifier>A0AC3D34-5DEB-AD4A-7954-A5388F05AFF7</UniqueIdentifier>
+    <Filter Include="Source Files\gui\common">
+      <UniqueIdentifier>C540E740-0E5C-EA58-092D-731DD6350004</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\generated\gui_generated\common">
-      <UniqueIdentifier>0C2A2A7F-88FC-15C0-89BD-9516166822E5</UniqueIdentifier>
+      <UniqueIdentifier>3A9A8CFA-E8C8-2552-4E8D-3F6CCF420656</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\gui_generated\main_screen">
-      <UniqueIdentifier>6C41B994-FB0D-8611-399E-82EFE3033CEA</UniqueIdentifier>
+    <Filter Include="Header Files\generated\simulator\include">
+      <UniqueIdentifier>CF963F7F-F7E4-8A98-74E0-EE283B8975FD</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\common">
+      <UniqueIdentifier>909078BC-5A08-29B1-9682-C6A34E440DF5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\simulator\video">
+      <UniqueIdentifier>B11992FD-2961-0BB0-1C54-A57B03B80679</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\simulator\include\simulator">
-      <UniqueIdentifier>1394086C-7AA4-05FB-C84B-5FCC5D947C0D</UniqueIdentifier>
+      <UniqueIdentifier>38BFCF15-E2A1-9C9F-DF77-7CC7CE0899B2</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
-      <UniqueIdentifier>869CA9A9-0F85-DB57-DCF0-50152A27E544</UniqueIdentifier>
+      <UniqueIdentifier>0348BFE5-D3EC-1D53-D38B-E8CC2DFEA244</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\touch_callib_screen">
+      <UniqueIdentifier>E5F00923-6FAF-CF80-AB08-10B5ADEB2C9F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\touch_callib_screen">
+      <UniqueIdentifier>525B3D7A-EDFC-F28E-3AFC-FE7F023E852A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\terminal_screen">
+      <UniqueIdentifier>2E36AC6D-01B5-39CE-CB13-A97ED0D92DCA</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\terminal_screen">
+      <UniqueIdentifier>3E1C609A-2A6F-3DE8-A3A3-DCC0855869D7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\terminal_screen">
+      <UniqueIdentifier>EE72886F-D72F-06AE-0BC0-F46B40B4D00A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\terminal_screen">
+      <UniqueIdentifier>8FC44BB0-680A-155F-2C19-05474F9DD4D6</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\touch_callib_screen">
+      <UniqueIdentifier>C8DD2E77-B32E-70C7-94EE-5B409A08CF04</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\touch_callib_screen">
+      <UniqueIdentifier>C44FA288-D091-36D8-AD86-E7F1EAFCAD90</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -210,47 +216,35 @@
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp">
       <Filter>Source Files\generated\simulator</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ClickableContainer.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
       <Filter>Source Files\gui\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp">
       <Filter>Source Files\generated\gui_generated\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\main_screen\MainPresenter.cpp">
-      <Filter>Source Files\gui\main_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\main_screen\MainView.cpp">
-      <Filter>Source Files\gui\main_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\main_screen\MainViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\main_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gui\src\model\Model.cpp">
       <Filter>Source Files\gui\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ParticleEffect.cpp">
-      <Filter>Source Files\gui\common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ParticlesScrollingWheel.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ScrollingMenu.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ScrollingWheel.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
     </ClCompile>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\SparseContainerList.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
+    <ClCompile Include="..\..\gui\src\terminal_screen\TerminalPresenter.cpp">
+      <Filter>Source Files\gui\terminal_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\TouchForwarder.cpp">
-      <Filter>Source Files\gui\common\ScrollingWheels</Filter>
+    <ClCompile Include="..\..\gui\src\terminal_screen\TerminalView.cpp">
+      <Filter>Source Files\gui\terminal_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\terminal_screen\TerminalViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\terminal_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\touch_callib_screen\touch_callibPresenter.cpp">
+      <Filter>Source Files\gui\touch_callib_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\touch_callib_screen\touch_callibView.cpp">
+      <Filter>Source Files\gui\touch_callib_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\touch_callib_screen\touch_callibViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\touch_callib_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -664,9 +658,6 @@
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp">
       <Filter>Header Files\generated\simulator</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ClickableContainer.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
@@ -682,15 +673,6 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp">
       <Filter>Header Files\generated\gui_generated\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\main_screen\MainPresenter.hpp">
-      <Filter>Header Files\gui\main_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\main_screen\MainView.hpp">
-      <Filter>Header Files\gui\main_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\main_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
@@ -700,32 +682,29 @@
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp">
       <Filter>Header Files\gui\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ParticleEffect.hpp">
-      <Filter>Header Files\gui\common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ParticlesScrollingWheel.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ScrollingMenu.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ScrollingWheel.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp">
       <Filter>Header Files\generated\gui_generated\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\SparseContainerList.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
+    <ClInclude Include="..\..\gui\include\gui\terminal_screen\TerminalPresenter.hpp">
+      <Filter>Header Files\gui\terminal_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\TextAreaWithOneWildcardContainer.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
+    <ClInclude Include="..\..\gui\include\gui\terminal_screen\TerminalView.hpp">
+      <Filter>Header Files\gui\terminal_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\TouchForwarder.hpp">
-      <Filter>Header Files\gui\common\ScrollingWheels</Filter>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\terminal_screen\TerminalViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\terminal_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\touch_callib_screen\touch_callibPresenter.hpp">
+      <Filter>Header Files\gui\touch_callib_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\touch_callib_screen\touch_callibView.hpp">
+      <Filter>Header Files\gui\touch_callib_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\touch_callib_screen\touch_callibViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\touch_callib_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

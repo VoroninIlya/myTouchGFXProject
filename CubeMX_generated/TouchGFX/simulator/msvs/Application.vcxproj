@@ -17,20 +17,16 @@
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\simulator\main.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ClickableContainer.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\main_screen\MainPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\main_screen\MainView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\main_screen\MainViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ParticleEffect.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ParticlesScrollingWheel.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ScrollingMenu.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\ScrollingWheel.cpp"/>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\SparseContainerList.cpp"/>
-    <ClCompile Include="..\..\gui\src\common\ScrollingWheels\TouchForwarder.cpp"/>
+    <ClCompile Include="..\..\gui\src\terminal_screen\TerminalPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\terminal_screen\TerminalView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\terminal_screen\TerminalViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\touch_callib_screen\touch_callibPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\touch_callib_screen\touch_callibView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\touch_callib_screen\touch_callibViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -171,27 +167,22 @@
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\TouchArea.hpp"/>
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\Widget.hpp"/>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ClickableContainer.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\main_screen\MainPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\main_screen\MainView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\Model.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ParticleEffect.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ParticlesScrollingWheel.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ScrollingMenu.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\ScrollingWheel.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\SparseContainerList.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\TextAreaWithOneWildcardContainer.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\common\ScrollingWheels\TouchForwarder.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\terminal_screen\TerminalPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\terminal_screen\TerminalView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\terminal_screen\TerminalViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\touch_callib_screen\touch_callibPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\touch_callib_screen\touch_callibView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\touch_callib_screen\touch_callibViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

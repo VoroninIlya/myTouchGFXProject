@@ -3,7 +3,7 @@
 #All other changes you make in this file will be preserved.
 #Visit http://visualgdb.com/makefiles for more details
 
-#VisualGDB: AutoSourceFiles		#<--- remove this line to disable auto-updating of SOURCEFILES and EXTERNAL_LIBS
+#VisualGDB_disable: AutoSourceFiles		#<--- remove this line to disable auto-updating of SOURCEFILES and EXTERNAL_LIBS
 
 TARGETNAME := VisualStudio.elf
 #TARGETTYPE can be APP, STATIC or SHARED
@@ -76,7 +76,55 @@ error:
 	$(error Invalid configuration, please check your inputs)
 endif
 
-SOURCEFILES := ../AZURE_RTOS/App/app_azure_rtos.c ../TouchGFX/App/app_touchgfx.c ../TouchGFX/gui/src/common/FrontendApplication.cpp ../TouchGFX/gui/src/common/ParticleEffect.cpp ../TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp ../TouchGFX/gui/src/common/ScrollingWheels/ParticlesScrollingWheel.cpp ../TouchGFX/gui/src/common/ScrollingWheels/ScrollingMenu.cpp ../TouchGFX/gui/src/common/ScrollingWheels/ScrollingWheel.cpp ../TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp ../TouchGFX/gui/src/common/ScrollingWheels/TouchForwarder.cpp ../TouchGFX/gui/src/main_screen/MainPresenter.cpp ../TouchGFX/gui/src/main_screen/MainView.cpp ../TouchGFX/gui/src/model/Model.cpp ../TouchGFX/target/generated/OSWrappers.cpp ../TouchGFX/target/generated/STM32DMA.cpp ../TouchGFX/target/generated/TouchGFXConfiguration.cpp ../TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp ../TouchGFX/target/STM32TouchController.cpp ../TouchGFX/target/TouchGFXGPIO.cpp ../TouchGFX/target/TouchGFXHAL.cpp ../Drivers/BSP/Components/ili9341/ili9341.c ../Drivers/BSP/Components/stmpe811/stmpe811.c ../Core/Src/tx_initialize_low_level.S ../Core/Startup/startup_stm32f429zitx.S ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c ../Middlewares/ST/threadx/common/src/txe_block_allocate.c ../Middlewares/ST/threadx/common/src/txe_block_pool_create.c ../Middlewares/ST/threadx/common/src/txe_block_pool_delete.c ../Middlewares/ST/threadx/common/src/txe_block_pool_info_get.c ../Middlewares/ST/threadx/common/src/txe_block_pool_prioritize.c ../Middlewares/ST/threadx/common/src/txe_block_release.c ../Middlewares/ST/threadx/common/src/txe_byte_allocate.c ../Middlewares/ST/threadx/common/src/txe_byte_pool_create.c ../Middlewares/ST/threadx/common/src/txe_byte_pool_delete.c ../Middlewares/ST/threadx/common/src/txe_byte_pool_info_get.c ../Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c ../Middlewares/ST/threadx/common/src/txe_byte_release.c ../Middlewares/ST/threadx/common/src/txe_event_flags_create.c ../Middlewares/ST/threadx/common/src/txe_event_flags_delete.c ../Middlewares/ST/threadx/common/src/txe_event_flags_get.c ../Middlewares/ST/threadx/common/src/txe_event_flags_info_get.c ../Middlewares/ST/threadx/common/src/txe_event_flags_set.c ../Middlewares/ST/threadx/common/src/txe_event_flags_set_notify.c ../Middlewares/ST/threadx/common/src/txe_mutex_create.c ../Middlewares/ST/threadx/common/src/txe_mutex_delete.c ../Middlewares/ST/threadx/common/src/txe_mutex_get.c ../Middlewares/ST/threadx/common/src/txe_mutex_info_get.c ../Middlewares/ST/threadx/common/src/txe_mutex_prioritize.c ../Middlewares/ST/threadx/common/src/txe_mutex_put.c ../Middlewares/ST/threadx/common/src/txe_queue_create.c ../Middlewares/ST/threadx/common/src/txe_queue_delete.c ../Middlewares/ST/threadx/common/src/txe_queue_flush.c ../Middlewares/ST/threadx/common/src/txe_queue_front_send.c ../Middlewares/ST/threadx/common/src/txe_queue_info_get.c ../Middlewares/ST/threadx/common/src/txe_queue_prioritize.c ../Middlewares/ST/threadx/common/src/txe_queue_receive.c ../Middlewares/ST/threadx/common/src/txe_queue_send.c ../Middlewares/ST/threadx/common/src/txe_queue_send_notify.c ../Middlewares/ST/threadx/common/src/txe_semaphore_ceiling_put.c ../Middlewares/ST/threadx/common/src/txe_semaphore_create.c ../Middlewares/ST/threadx/common/src/txe_semaphore_delete.c ../Middlewares/ST/threadx/common/src/txe_semaphore_get.c ../Middlewares/ST/threadx/common/src/txe_semaphore_info_get.c ../Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c ../Middlewares/ST/threadx/common/src/txe_semaphore_put.c ../Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c ../Middlewares/ST/threadx/common/src/txe_thread_create.c ../Middlewares/ST/threadx/common/src/txe_thread_delete.c ../Middlewares/ST/threadx/common/src/txe_thread_entry_exit_notify.c ../Middlewares/ST/threadx/common/src/txe_thread_info_get.c ../Middlewares/ST/threadx/common/src/txe_thread_preemption_change.c ../Middlewares/ST/threadx/common/src/txe_thread_priority_change.c ../Middlewares/ST/threadx/common/src/txe_thread_relinquish.c ../Middlewares/ST/threadx/common/src/txe_thread_reset.c ../Middlewares/ST/threadx/common/src/txe_thread_resume.c ../Middlewares/ST/threadx/common/src/txe_thread_suspend.c ../Middlewares/ST/threadx/common/src/txe_thread_terminate.c ../Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c ../Middlewares/ST/threadx/common/src/txe_thread_wait_abort.c ../Middlewares/ST/threadx/common/src/txe_timer_activate.c ../Middlewares/ST/threadx/common/src/txe_timer_change.c ../Middlewares/ST/threadx/common/src/txe_timer_create.c ../Middlewares/ST/threadx/common/src/txe_timer_deactivate.c ../Middlewares/ST/threadx/common/src/txe_timer_delete.c ../Middlewares/ST/threadx/common/src/txe_timer_info_get.c ../Middlewares/ST/threadx/common/src/tx_block_allocate.c ../Middlewares/ST/threadx/common/src/tx_block_pool_cleanup.c ../Middlewares/ST/threadx/common/src/tx_block_pool_create.c ../Middlewares/ST/threadx/common/src/tx_block_pool_delete.c ../Middlewares/ST/threadx/common/src/tx_block_pool_info_get.c ../Middlewares/ST/threadx/common/src/tx_block_pool_initialize.c ../Middlewares/ST/threadx/common/src/tx_block_pool_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_block_pool_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_block_pool_prioritize.c ../Middlewares/ST/threadx/common/src/tx_block_release.c ../Middlewares/ST/threadx/common/src/tx_byte_allocate.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_cleanup.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_create.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_delete.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_info_get.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_initialize.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_prioritize.c ../Middlewares/ST/threadx/common/src/tx_byte_pool_search.c ../Middlewares/ST/threadx/common/src/tx_byte_release.c ../Middlewares/ST/threadx/common/src/tx_event_flags_cleanup.c ../Middlewares/ST/threadx/common/src/tx_event_flags_create.c ../Middlewares/ST/threadx/common/src/tx_event_flags_delete.c ../Middlewares/ST/threadx/common/src/tx_event_flags_get.c ../Middlewares/ST/threadx/common/src/tx_event_flags_info_get.c ../Middlewares/ST/threadx/common/src/tx_event_flags_initialize.c ../Middlewares/ST/threadx/common/src/tx_event_flags_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_event_flags_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_event_flags_set.c ../Middlewares/ST/threadx/common/src/tx_event_flags_set_notify.c ../Middlewares/ST/threadx/common/src/tx_initialize_high_level.c ../Middlewares/ST/threadx/common/src/tx_initialize_kernel_enter.c ../Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c ../Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c ../Middlewares/ST/threadx/common/src/tx_mutex_create.c ../Middlewares/ST/threadx/common/src/tx_mutex_delete.c ../Middlewares/ST/threadx/common/src/tx_mutex_get.c ../Middlewares/ST/threadx/common/src/tx_mutex_info_get.c ../Middlewares/ST/threadx/common/src/tx_mutex_initialize.c ../Middlewares/ST/threadx/common/src/tx_mutex_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_mutex_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_mutex_prioritize.c ../Middlewares/ST/threadx/common/src/tx_mutex_priority_change.c ../Middlewares/ST/threadx/common/src/tx_mutex_put.c ../Middlewares/ST/threadx/common/src/tx_queue_cleanup.c ../Middlewares/ST/threadx/common/src/tx_queue_create.c ../Middlewares/ST/threadx/common/src/tx_queue_delete.c ../Middlewares/ST/threadx/common/src/tx_queue_flush.c ../Middlewares/ST/threadx/common/src/tx_queue_front_send.c ../Middlewares/ST/threadx/common/src/tx_queue_info_get.c ../Middlewares/ST/threadx/common/src/tx_queue_initialize.c ../Middlewares/ST/threadx/common/src/tx_queue_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_queue_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_queue_prioritize.c ../Middlewares/ST/threadx/common/src/tx_queue_receive.c ../Middlewares/ST/threadx/common/src/tx_queue_send.c ../Middlewares/ST/threadx/common/src/tx_queue_send_notify.c ../Middlewares/ST/threadx/common/src/tx_semaphore_ceiling_put.c ../Middlewares/ST/threadx/common/src/tx_semaphore_cleanup.c ../Middlewares/ST/threadx/common/src/tx_semaphore_create.c ../Middlewares/ST/threadx/common/src/tx_semaphore_delete.c ../Middlewares/ST/threadx/common/src/tx_semaphore_get.c ../Middlewares/ST/threadx/common/src/tx_semaphore_info_get.c ../Middlewares/ST/threadx/common/src/tx_semaphore_initialize.c ../Middlewares/ST/threadx/common/src/tx_semaphore_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_semaphore_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_semaphore_prioritize.c ../Middlewares/ST/threadx/common/src/tx_semaphore_put.c ../Middlewares/ST/threadx/common/src/tx_semaphore_put_notify.c ../Middlewares/ST/threadx/common/src/tx_thread_create.c ../Middlewares/ST/threadx/common/src/tx_thread_delete.c ../Middlewares/ST/threadx/common/src/tx_thread_entry_exit_notify.c ../Middlewares/ST/threadx/common/src/tx_thread_identify.c ../Middlewares/ST/threadx/common/src/tx_thread_info_get.c ../Middlewares/ST/threadx/common/src/tx_thread_initialize.c ../Middlewares/ST/threadx/common/src/tx_thread_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_thread_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_thread_preemption_change.c ../Middlewares/ST/threadx/common/src/tx_thread_priority_change.c ../Middlewares/ST/threadx/common/src/tx_thread_relinquish.c ../Middlewares/ST/threadx/common/src/tx_thread_reset.c ../Middlewares/ST/threadx/common/src/tx_thread_resume.c ../Middlewares/ST/threadx/common/src/tx_thread_shell_entry.c ../Middlewares/ST/threadx/common/src/tx_thread_sleep.c ../Middlewares/ST/threadx/common/src/tx_thread_stack_analyze.c ../Middlewares/ST/threadx/common/src/tx_thread_stack_error_handler.c ../Middlewares/ST/threadx/common/src/tx_thread_stack_error_notify.c ../Middlewares/ST/threadx/common/src/tx_thread_suspend.c ../Middlewares/ST/threadx/common/src/tx_thread_system_preempt_check.c ../Middlewares/ST/threadx/common/src/tx_thread_system_resume.c ../Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c ../Middlewares/ST/threadx/common/src/tx_thread_terminate.c ../Middlewares/ST/threadx/common/src/tx_thread_timeout.c ../Middlewares/ST/threadx/common/src/tx_thread_time_slice.c ../Middlewares/ST/threadx/common/src/tx_thread_time_slice_change.c ../Middlewares/ST/threadx/common/src/tx_thread_wait_abort.c ../Middlewares/ST/threadx/common/src/tx_timer_activate.c ../Middlewares/ST/threadx/common/src/tx_timer_change.c ../Middlewares/ST/threadx/common/src/tx_timer_create.c ../Middlewares/ST/threadx/common/src/tx_timer_deactivate.c ../Middlewares/ST/threadx/common/src/tx_timer_delete.c ../Middlewares/ST/threadx/common/src/tx_timer_expiration_process.c ../Middlewares/ST/threadx/common/src/tx_timer_info_get.c ../Middlewares/ST/threadx/common/src/tx_timer_initialize.c ../Middlewares/ST/threadx/common/src/tx_timer_performance_info_get.c ../Middlewares/ST/threadx/common/src/tx_timer_performance_system_info_get.c ../Middlewares/ST/threadx/common/src/tx_timer_system_activate.c ../Middlewares/ST/threadx/common/src/tx_timer_system_deactivate.c ../Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c ../Middlewares/ST/threadx/common/src/tx_time_get.c ../Middlewares/ST/threadx/common/src/tx_time_set.c ../Middlewares/ST/threadx/common/src/tx_trace_buffer_full_notify.c ../Middlewares/ST/threadx/common/src/tx_trace_disable.c ../Middlewares/ST/threadx/common/src/tx_trace_enable.c ../Middlewares/ST/threadx/common/src/tx_trace_event_filter.c ../Middlewares/ST/threadx/common/src/tx_trace_event_unfilter.c ../Middlewares/ST/threadx/common/src/tx_trace_initialize.c ../Middlewares/ST/threadx/common/src/tx_trace_interrupt_control.c ../Middlewares/ST/threadx/common/src/tx_trace_isr_enter_insert.c ../Middlewares/ST/threadx/common/src/tx_trace_isr_exit_insert.c ../Middlewares/ST/threadx/common/src/tx_trace_object_register.c ../Middlewares/ST/threadx/common/src/tx_trace_object_unregister.c ../Middlewares/ST/threadx/common/src/tx_trace_user_event_insert.c ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/CacheableContainer.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/Container.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ListLayout.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ModalWindow.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ScrollableContainer.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/SlideMenu.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/Slider.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/SwipeContainer.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ZoomAnimationImage.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/AbstractClock.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/AnalogClock.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/DigitalClock.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/AbstractDirectionProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/AbstractProgressIndicator.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/BoxProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/CircleProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/ImageProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/LineProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/TextProgress.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/DrawableList.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollBase.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollList.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheel.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheelBase.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheelWithSelectionStyle.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AbstractButton.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AnimatedImage.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AnimationTextureMapper.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Box.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/BoxWithBorder.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Button.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ButtonWithIcon.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ButtonWithLabel.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Gauge.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Image.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Keyboard.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/PixelDataWidget.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/RadioButton.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/RepeatButton.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ScalableImage.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/SnapshotWidget.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextArea.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextAreaWithWildcard.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextureMapper.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TiledImage.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ToggleButton.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TouchArea.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/VideoWidget.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/AbstractShape.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Canvas.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/CanvasWidget.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Circle.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Line.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterABGR2222.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterABGR2222Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB2222.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB2222Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888L8Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBGRA2222.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBGRA2222Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBW.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBWBitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY2.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY2Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY4.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY4Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565L8Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888L8Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGBA2222.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGBA2222Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888L8Bitmap.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/AbstractDataGraph.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/Graph.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphElements.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphLabels.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphScroll.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphWrapAndClear.cpp ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphWrapAndOverwrite.cpp ../TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp ../TouchGFX/generated/fonts/src/CachedFont.cpp ../TouchGFX/generated/fonts/src/FontCache.cpp ../TouchGFX/generated/fonts/src/Font_Asap_Regular_24_4bpp_0.cpp ../TouchGFX/generated/fonts/src/Font_Asap_Regular_32_4bpp_0.cpp ../TouchGFX/generated/fonts/src/GeneratedFont.cpp ../TouchGFX/generated/fonts/src/Kerning_Asap_Regular_24_4bpp.cpp ../TouchGFX/generated/fonts/src/Kerning_Asap_Regular_32_4bpp.cpp ../TouchGFX/generated/fonts/src/Table_Asap_Regular_24_4bpp.cpp ../TouchGFX/generated/fonts/src/Table_Asap_Regular_32_4bpp.cpp ../TouchGFX/generated/fonts/src/UnmappedDataFont.cpp ../TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp ../TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp ../TouchGFX/generated/images/src/BitmapDatabase.cpp ../TouchGFX/generated/images/src/image_background.cpp ../TouchGFX/generated/images/src/image_gotoMenu.cpp ../TouchGFX/generated/images/src/image_particle00.cpp ../TouchGFX/generated/images/src/image_particle01.cpp ../TouchGFX/generated/images/src/image_particle02.cpp ../TouchGFX/generated/images/src/image_particle03.cpp ../TouchGFX/generated/images/src/image_particle04.cpp ../TouchGFX/generated/images/src/image_particle05.cpp ../TouchGFX/generated/images/src/image_particle06.cpp ../TouchGFX/generated/images/src/image_particle07.cpp ../TouchGFX/generated/images/src/image_particle08.cpp ../TouchGFX/generated/images/src/image_particle09.cpp ../TouchGFX/generated/images/src/image_particle10.cpp ../TouchGFX/generated/images/src/image_TGFX_shadow_logo.cpp ../TouchGFX/generated/images/src/image_wheel_selector_background.cpp ../TouchGFX/generated/images/src/image_wheel_selector_overlay.cpp ../TouchGFX/generated/texts/src/LanguageGb.cpp ../TouchGFX/generated/texts/src/Texts.cpp ../TouchGFX/generated/texts/src/TypedTextDatabase.cpp ../Core/Src/app_threadx.c ../Core/Src/main.c ../Core/Src/stm32f4xx_hal_msp.c ../Core/Src/stm32f4xx_hal_timebase_tim.c ../Core/Src/stm32f4xx_it.c ../Core/Src/syscalls.c ../Core/Src/sysmem.c ../Core/Src/system_stm32f4xx.c ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S
+# Finds files that matches the specified pattern. The directory list
+# is searched recursively. It is safe to invoke this function with an
+# empty list of directories.
+#
+# Param $(1): List of directories to search
+# Param $(2): The file pattern to search for
+define find
+  $(foreach dir,$(1),$(foreach d,$(wildcard $(dir)/*),\
+    $(call find,$(d),$(2))) $(wildcard $(dir)/$(strip $(2))))
+endef
+unexport find
+
+cpp_source_paths := \
+  Middlewares/ST/touchgfx/framework/source/touchgfx \
+  TouchGFX/gui/src \
+  TouchGFX/target \
+  TouchGFX/generated/gui_generated/src \
+  TouchGFX/generated/images/src \
+  TouchGFX/generated/fonts/src \
+  TouchGFX/generated/texts/src \
+  TouchGFX/generated/videos/src 
+  
+c_source_paths := \
+  Drivers/STM32F4xx_HAL_Driver/Src \
+  Drivers/BSP/Components/stmpe811 \
+  Drivers/BSP/Components/ili9341 \
+  Middlewares/ST/threadx/common/src \
+  Core/Src \
+  AZURE_RTOS/App \
+  TouchGFX/App
+
+asm_source_paths := \
+  gcc \
+  Middlewares/ST/threadx/ports/cortex_m4/gnu/src \
+  Core/Src 
+  
+# correct
+cpp_source_paths := $(foreach path, $(cpp_source_paths), $(addprefix ../, $(path)))
+c_source_paths := $(foreach path, $(c_source_paths), $(addprefix ../, $(path)))
+asm_source_paths := $(foreach path, $(asm_source_paths), $(addprefix ../, $(path)))
+
+cpp_files := $(call find, $(cpp_source_paths),*.cpp)
+c_files := $(call find, $(c_source_paths),*.c)
+asm_files := $(call find, $(asm_source_paths),*.S) $(call find, $(asm_source_paths),*.s)
+
+source_files :=  $(asm_files) $(c_files) $(cpp_files) 
+
+SOURCEFILES := $(source_files) 
+
 EXTERNAL_LIBS := ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx-float-abi-hard.a ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx.a
 EXTERNAL_LIBS_COPIED := $(foreach lib, $(EXTERNAL_LIBS),$(BINARYDIR)/$(notdir $(lib)))
 
@@ -238,10 +286,16 @@ else
 	rm -rf $(BINARYDIR)
 endif
 
+#"C:\Program Files (x86)\Sysprogs\VisualGDB\make.exe" dev
+dev: 
+	@echo cpp_source_paths $(cpp_source_paths)
+	@echo cpp_files $(cpp_files)
+
 $(BINARYDIR):
 	mkdir $(BINARYDIR)
 
 #VisualGDB: FileSpecificTemplates		#<--- VisualGDB will use the following lines to define rules for source files in subdirectories
+
 $(BINARYDIR)/%.o : %.cpp $(all_make_files) |$(BINARYDIR)
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 
@@ -260,1479 +314,95 @@ $(BINARYDIR)/%.o : %.cc $(all_make_files) |$(BINARYDIR)
 $(BINARYDIR)/%.o : %.cxx $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER)F $(@:.o=.dep)
 
-#VisualGDB: GeneratedRules				#<--- All lines below are auto-generated. Remove this line to suppress auto-generation of file rules.
-
-
-$(BINARYDIR)/app_azure_rtos.o : ../AZURE_RTOS/App/app_azure_rtos.c $(all_make_files) |$(BINARYDIR)
+#VisualGDB_disable: GeneratedRules				#<--- All lines below are auto-generated. Remove this line to suppress auto-generation of file rules.
+ # ../Core/Src
+$(BINARYDIR)/%.o : ../Core/Src/%.c $(all_make_files) |$(BINARYDIR)                              
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/app_touchgfx.o : ../TouchGFX/App/app_touchgfx.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/FrontendApplication.o : ../TouchGFX/gui/src/common/FrontendApplication.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ParticleEffect.o : ../TouchGFX/gui/src/common/ParticleEffect.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ClickableContainer.o : ../TouchGFX/gui/src/common/ScrollingWheels/ClickableContainer.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ParticlesScrollingWheel.o : ../TouchGFX/gui/src/common/ScrollingWheels/ParticlesScrollingWheel.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollingMenu.o : ../TouchGFX/gui/src/common/ScrollingWheels/ScrollingMenu.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollingWheel.o : ../TouchGFX/gui/src/common/ScrollingWheels/ScrollingWheel.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/SparseContainerList.o : ../TouchGFX/gui/src/common/ScrollingWheels/SparseContainerList.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchForwarder.o : ../TouchGFX/gui/src/common/ScrollingWheels/TouchForwarder.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/MainPresenter.o : ../TouchGFX/gui/src/main_screen/MainPresenter.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/MainView.o : ../TouchGFX/gui/src/main_screen/MainView.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Model.o : ../TouchGFX/gui/src/model/Model.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/OSWrappers.o : ../TouchGFX/target/generated/OSWrappers.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/STM32DMA.o : ../TouchGFX/target/generated/STM32DMA.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchGFXConfiguration.o : ../TouchGFX/target/generated/TouchGFXConfiguration.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchGFXGeneratedHAL.o : ../TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/STM32TouchController.o : ../TouchGFX/target/STM32TouchController.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchGFXGPIO.o : ../TouchGFX/target/TouchGFXGPIO.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchGFXHAL.o : ../TouchGFX/target/TouchGFXHAL.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ili9341.o : ../Drivers/BSP/Components/ili9341/ili9341.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stmpe811.o : ../Drivers/BSP/Components/stmpe811/stmpe811.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_initialize_low_level.o : ../Core/Src/tx_initialize_low_level.S $(all_make_files) |$(BINARYDIR)
+$(BINARYDIR)/%.o : ../Core/Src/%.s $(all_make_files) |$(BINARYDIR)
 	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/startup_stm32f429zitx.o : ../Core/Startup/startup_stm32f429zitx.S $(all_make_files) |$(BINARYDIR)
+# ../Core/Startup
+$(BINARYDIR)/%.o : ../gcc/%.s $(all_make_files) |$(BINARYDIR)                           
 	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c $(all_make_files) |$(BINARYDIR)
+# ../Drivers/STM32F4xx_HAL_Driver/Src
+$(BINARYDIR)/%.o : ../Drivers/STM32F4xx_HAL_Driver/Src/%.c $(all_make_files) |$(BINARYDIR)       
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_cortex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c $(all_make_files) |$(BINARYDIR)
+# ../Drivers/BSP/Components/stmpe811
+$(BINARYDIR)/%.o : ../Drivers/BSP/Components/stmpe811/%.c $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_crc.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c $(all_make_files) |$(BINARYDIR)
+# ../Drivers/BSP/Components/ili9341
+$(BINARYDIR)/%.o : ../Drivers/BSP/Components/ili9341/%.c $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_dma.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c $(all_make_files) |$(BINARYDIR)
+# ../Middlewares/ST/threadx/common/src
+$(BINARYDIR)/%.o : ../Middlewares/ST/threadx/common/src/%.c $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_dma2d.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_dma_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_dsi.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_exti.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_flash.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_flash_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_flash_ramfunc.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_gpio.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_i2c.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_i2c_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_ltdc.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_ltdc_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_pwr.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_pwr_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_rcc.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_rcc_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_sdram.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_spi.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_tim.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_tim_ex.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_ll_fmc.o : ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_allocate.o : ../Middlewares/ST/threadx/common/src/txe_block_allocate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_pool_create.o : ../Middlewares/ST/threadx/common/src/txe_block_pool_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_pool_delete.o : ../Middlewares/ST/threadx/common/src/txe_block_pool_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_pool_info_get.o : ../Middlewares/ST/threadx/common/src/txe_block_pool_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_pool_prioritize.o : ../Middlewares/ST/threadx/common/src/txe_block_pool_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_block_release.o : ../Middlewares/ST/threadx/common/src/txe_block_release.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_allocate.o : ../Middlewares/ST/threadx/common/src/txe_byte_allocate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_pool_create.o : ../Middlewares/ST/threadx/common/src/txe_byte_pool_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_pool_delete.o : ../Middlewares/ST/threadx/common/src/txe_byte_pool_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_pool_info_get.o : ../Middlewares/ST/threadx/common/src/txe_byte_pool_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_pool_prioritize.o : ../Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_byte_release.o : ../Middlewares/ST/threadx/common/src/txe_byte_release.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_create.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_delete.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_get.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_info_get.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_set.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_set.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_event_flags_set_notify.o : ../Middlewares/ST/threadx/common/src/txe_event_flags_set_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_create.o : ../Middlewares/ST/threadx/common/src/txe_mutex_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_delete.o : ../Middlewares/ST/threadx/common/src/txe_mutex_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_get.o : ../Middlewares/ST/threadx/common/src/txe_mutex_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_info_get.o : ../Middlewares/ST/threadx/common/src/txe_mutex_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_prioritize.o : ../Middlewares/ST/threadx/common/src/txe_mutex_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_mutex_put.o : ../Middlewares/ST/threadx/common/src/txe_mutex_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_create.o : ../Middlewares/ST/threadx/common/src/txe_queue_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_delete.o : ../Middlewares/ST/threadx/common/src/txe_queue_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_flush.o : ../Middlewares/ST/threadx/common/src/txe_queue_flush.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_front_send.o : ../Middlewares/ST/threadx/common/src/txe_queue_front_send.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_info_get.o : ../Middlewares/ST/threadx/common/src/txe_queue_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_prioritize.o : ../Middlewares/ST/threadx/common/src/txe_queue_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_receive.o : ../Middlewares/ST/threadx/common/src/txe_queue_receive.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_send.o : ../Middlewares/ST/threadx/common/src/txe_queue_send.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_queue_send_notify.o : ../Middlewares/ST/threadx/common/src/txe_queue_send_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_ceiling_put.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_ceiling_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_create.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_delete.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_get.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_info_get.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_prioritize.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_put.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_semaphore_put_notify.o : ../Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_create.o : ../Middlewares/ST/threadx/common/src/txe_thread_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_delete.o : ../Middlewares/ST/threadx/common/src/txe_thread_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_entry_exit_notify.o : ../Middlewares/ST/threadx/common/src/txe_thread_entry_exit_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_info_get.o : ../Middlewares/ST/threadx/common/src/txe_thread_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_preemption_change.o : ../Middlewares/ST/threadx/common/src/txe_thread_preemption_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_priority_change.o : ../Middlewares/ST/threadx/common/src/txe_thread_priority_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_relinquish.o : ../Middlewares/ST/threadx/common/src/txe_thread_relinquish.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_reset.o : ../Middlewares/ST/threadx/common/src/txe_thread_reset.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_resume.o : ../Middlewares/ST/threadx/common/src/txe_thread_resume.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_suspend.o : ../Middlewares/ST/threadx/common/src/txe_thread_suspend.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_terminate.o : ../Middlewares/ST/threadx/common/src/txe_thread_terminate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_time_slice_change.o : ../Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_thread_wait_abort.o : ../Middlewares/ST/threadx/common/src/txe_thread_wait_abort.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_activate.o : ../Middlewares/ST/threadx/common/src/txe_timer_activate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_change.o : ../Middlewares/ST/threadx/common/src/txe_timer_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_create.o : ../Middlewares/ST/threadx/common/src/txe_timer_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_deactivate.o : ../Middlewares/ST/threadx/common/src/txe_timer_deactivate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_delete.o : ../Middlewares/ST/threadx/common/src/txe_timer_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/txe_timer_info_get.o : ../Middlewares/ST/threadx/common/src/txe_timer_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_allocate.o : ../Middlewares/ST/threadx/common/src/tx_block_allocate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_create.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_delete.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_info_get.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_initialize.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_pool_prioritize.o : ../Middlewares/ST/threadx/common/src/tx_block_pool_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_block_release.o : ../Middlewares/ST/threadx/common/src/tx_block_release.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_allocate.o : ../Middlewares/ST/threadx/common/src/tx_byte_allocate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_create.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_delete.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_info_get.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_initialize.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_prioritize.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_pool_search.o : ../Middlewares/ST/threadx/common/src/tx_byte_pool_search.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_byte_release.o : ../Middlewares/ST/threadx/common/src/tx_byte_release.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_create.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_delete.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_get.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_info_get.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_initialize.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_set.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_set.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_event_flags_set_notify.o : ../Middlewares/ST/threadx/common/src/tx_event_flags_set_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_initialize_high_level.o : ../Middlewares/ST/threadx/common/src/tx_initialize_high_level.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_initialize_kernel_enter.o : ../Middlewares/ST/threadx/common/src/tx_initialize_kernel_enter.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_initialize_kernel_setup.o : ../Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_create.o : ../Middlewares/ST/threadx/common/src/tx_mutex_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_delete.o : ../Middlewares/ST/threadx/common/src/tx_mutex_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_get.o : ../Middlewares/ST/threadx/common/src/tx_mutex_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_info_get.o : ../Middlewares/ST/threadx/common/src/tx_mutex_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_initialize.o : ../Middlewares/ST/threadx/common/src/tx_mutex_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_mutex_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_mutex_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_prioritize.o : ../Middlewares/ST/threadx/common/src/tx_mutex_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_priority_change.o : ../Middlewares/ST/threadx/common/src/tx_mutex_priority_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_mutex_put.o : ../Middlewares/ST/threadx/common/src/tx_mutex_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_queue_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_create.o : ../Middlewares/ST/threadx/common/src/tx_queue_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_delete.o : ../Middlewares/ST/threadx/common/src/tx_queue_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_flush.o : ../Middlewares/ST/threadx/common/src/tx_queue_flush.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_front_send.o : ../Middlewares/ST/threadx/common/src/tx_queue_front_send.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_info_get.o : ../Middlewares/ST/threadx/common/src/tx_queue_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_initialize.o : ../Middlewares/ST/threadx/common/src/tx_queue_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_queue_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_queue_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_prioritize.o : ../Middlewares/ST/threadx/common/src/tx_queue_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_receive.o : ../Middlewares/ST/threadx/common/src/tx_queue_receive.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_send.o : ../Middlewares/ST/threadx/common/src/tx_queue_send.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_queue_send_notify.o : ../Middlewares/ST/threadx/common/src/tx_queue_send_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_ceiling_put.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_ceiling_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_cleanup.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_cleanup.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_create.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_delete.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_get.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_info_get.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_initialize.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_prioritize.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_prioritize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_put.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_put.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_semaphore_put_notify.o : ../Middlewares/ST/threadx/common/src/tx_semaphore_put_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_create.o : ../Middlewares/ST/threadx/common/src/tx_thread_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_delete.o : ../Middlewares/ST/threadx/common/src/tx_thread_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_entry_exit_notify.o : ../Middlewares/ST/threadx/common/src/tx_thread_entry_exit_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_identify.o : ../Middlewares/ST/threadx/common/src/tx_thread_identify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_info_get.o : ../Middlewares/ST/threadx/common/src/tx_thread_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_initialize.o : ../Middlewares/ST/threadx/common/src/tx_thread_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_thread_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_thread_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_preemption_change.o : ../Middlewares/ST/threadx/common/src/tx_thread_preemption_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_priority_change.o : ../Middlewares/ST/threadx/common/src/tx_thread_priority_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_relinquish.o : ../Middlewares/ST/threadx/common/src/tx_thread_relinquish.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_reset.o : ../Middlewares/ST/threadx/common/src/tx_thread_reset.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_resume.o : ../Middlewares/ST/threadx/common/src/tx_thread_resume.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_shell_entry.o : ../Middlewares/ST/threadx/common/src/tx_thread_shell_entry.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_sleep.o : ../Middlewares/ST/threadx/common/src/tx_thread_sleep.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_stack_analyze.o : ../Middlewares/ST/threadx/common/src/tx_thread_stack_analyze.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_stack_error_handler.o : ../Middlewares/ST/threadx/common/src/tx_thread_stack_error_handler.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_stack_error_notify.o : ../Middlewares/ST/threadx/common/src/tx_thread_stack_error_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_suspend.o : ../Middlewares/ST/threadx/common/src/tx_thread_suspend.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_system_preempt_check.o : ../Middlewares/ST/threadx/common/src/tx_thread_system_preempt_check.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_system_resume.o : ../Middlewares/ST/threadx/common/src/tx_thread_system_resume.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_system_suspend.o : ../Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_terminate.o : ../Middlewares/ST/threadx/common/src/tx_thread_terminate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_timeout.o : ../Middlewares/ST/threadx/common/src/tx_thread_timeout.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_time_slice.o : ../Middlewares/ST/threadx/common/src/tx_thread_time_slice.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_time_slice_change.o : ../Middlewares/ST/threadx/common/src/tx_thread_time_slice_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_wait_abort.o : ../Middlewares/ST/threadx/common/src/tx_thread_wait_abort.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_activate.o : ../Middlewares/ST/threadx/common/src/tx_timer_activate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_change.o : ../Middlewares/ST/threadx/common/src/tx_timer_change.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_create.o : ../Middlewares/ST/threadx/common/src/tx_timer_create.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_deactivate.o : ../Middlewares/ST/threadx/common/src/tx_timer_deactivate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_delete.o : ../Middlewares/ST/threadx/common/src/tx_timer_delete.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_expiration_process.o : ../Middlewares/ST/threadx/common/src/tx_timer_expiration_process.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_info_get.o : ../Middlewares/ST/threadx/common/src/tx_timer_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_initialize.o : ../Middlewares/ST/threadx/common/src/tx_timer_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_performance_info_get.o : ../Middlewares/ST/threadx/common/src/tx_timer_performance_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_performance_system_info_get.o : ../Middlewares/ST/threadx/common/src/tx_timer_performance_system_info_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_system_activate.o : ../Middlewares/ST/threadx/common/src/tx_timer_system_activate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_system_deactivate.o : ../Middlewares/ST/threadx/common/src/tx_timer_system_deactivate.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_thread_entry.o : ../Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_time_get.o : ../Middlewares/ST/threadx/common/src/tx_time_get.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_time_set.o : ../Middlewares/ST/threadx/common/src/tx_time_set.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_buffer_full_notify.o : ../Middlewares/ST/threadx/common/src/tx_trace_buffer_full_notify.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_disable.o : ../Middlewares/ST/threadx/common/src/tx_trace_disable.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_enable.o : ../Middlewares/ST/threadx/common/src/tx_trace_enable.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_event_filter.o : ../Middlewares/ST/threadx/common/src/tx_trace_event_filter.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_event_unfilter.o : ../Middlewares/ST/threadx/common/src/tx_trace_event_unfilter.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_initialize.o : ../Middlewares/ST/threadx/common/src/tx_trace_initialize.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_interrupt_control.o : ../Middlewares/ST/threadx/common/src/tx_trace_interrupt_control.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_isr_enter_insert.o : ../Middlewares/ST/threadx/common/src/tx_trace_isr_enter_insert.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_isr_exit_insert.o : ../Middlewares/ST/threadx/common/src/tx_trace_isr_exit_insert.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_object_register.o : ../Middlewares/ST/threadx/common/src/tx_trace_object_register.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_object_unregister.o : ../Middlewares/ST/threadx/common/src/tx_trace_object_unregister.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_trace_user_event_insert.o : ../Middlewares/ST/threadx/common/src/tx_trace_user_event_insert.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/CacheableContainer.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/CacheableContainer.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Container.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/Container.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ListLayout.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ListLayout.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ModalWindow.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ModalWindow.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollableContainer.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ScrollableContainer.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/SlideMenu.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/SlideMenu.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Slider.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/Slider.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/SwipeContainer.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/SwipeContainer.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ZoomAnimationImage.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/ZoomAnimationImage.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractClock.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/AbstractClock.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AnalogClock.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/AnalogClock.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/DigitalClock.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/DigitalClock.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractDirectionProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/AbstractDirectionProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractProgressIndicator.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/AbstractProgressIndicator.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/BoxProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/BoxProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/CircleProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/CircleProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ImageProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/ImageProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/LineProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/LineProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TextProgress.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/TextProgress.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/DrawableList.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/DrawableList.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollBase.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollBase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollList.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollList.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollWheel.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheel.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollWheelBase.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheelBase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScrollWheelWithSelectionStyle.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/ScrollWheelWithSelectionStyle.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractButton.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AbstractButton.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AnimatedImage.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AnimatedImage.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AnimationTextureMapper.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/AnimationTextureMapper.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Box.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Box.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/BoxWithBorder.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/BoxWithBorder.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Button.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Button.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ButtonWithIcon.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ButtonWithIcon.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ButtonWithLabel.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ButtonWithLabel.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Gauge.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Gauge.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Image.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Image.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Keyboard.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/Keyboard.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PixelDataWidget.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/PixelDataWidget.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/RadioButton.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/RadioButton.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/RepeatButton.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/RepeatButton.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ScalableImage.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ScalableImage.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/SnapshotWidget.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/SnapshotWidget.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TextArea.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextArea.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TextAreaWithWildcard.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextAreaWithWildcard.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TextureMapper.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TextureMapper.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TiledImage.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TiledImage.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ToggleButton.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/ToggleButton.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TouchArea.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/TouchArea.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/VideoWidget.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/VideoWidget.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractShape.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/AbstractShape.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Canvas.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Canvas.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/CanvasWidget.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/CanvasWidget.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Circle.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Circle.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Line.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/Line.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterABGR2222.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterABGR2222.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterABGR2222Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterABGR2222Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterARGB2222.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB2222.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterARGB2222Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB2222Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterARGB8888.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterARGB8888Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterARGB8888L8Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterARGB8888L8Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterBGRA2222.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBGRA2222.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterBGRA2222Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBGRA2222Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterBW.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBW.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterBWBitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterBWBitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterGRAY2.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY2.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterGRAY2Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY2Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterGRAY4.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY4.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterGRAY4Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterGRAY4Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB565.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB565Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB565L8Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB565L8Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB888.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB888Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGB888L8Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGB888L8Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGBA2222.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGBA2222.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterRGBA2222Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterRGBA2222Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterXRGB8888.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterXRGB8888Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/PainterXRGB8888L8Bitmap.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/PainterXRGB8888L8Bitmap.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/AbstractDataGraph.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/AbstractDataGraph.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Graph.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/Graph.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GraphElements.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphElements.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GraphLabels.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphLabels.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GraphScroll.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphScroll.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GraphWrapAndClear.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphWrapAndClear.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GraphWrapAndOverwrite.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/GraphWrapAndOverwrite.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/ApplicationFontProvider.o : ../TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/CachedFont.o : ../TouchGFX/generated/fonts/src/CachedFont.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/FontCache.o : ../TouchGFX/generated/fonts/src/FontCache.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Font_Asap_Regular_24_4bpp_0.o : ../TouchGFX/generated/fonts/src/Font_Asap_Regular_24_4bpp_0.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Font_Asap_Regular_32_4bpp_0.o : ../TouchGFX/generated/fonts/src/Font_Asap_Regular_32_4bpp_0.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/GeneratedFont.o : ../TouchGFX/generated/fonts/src/GeneratedFont.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Kerning_Asap_Regular_24_4bpp.o : ../TouchGFX/generated/fonts/src/Kerning_Asap_Regular_24_4bpp.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Kerning_Asap_Regular_32_4bpp.o : ../TouchGFX/generated/fonts/src/Kerning_Asap_Regular_32_4bpp.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Table_Asap_Regular_24_4bpp.o : ../TouchGFX/generated/fonts/src/Table_Asap_Regular_24_4bpp.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Table_Asap_Regular_32_4bpp.o : ../TouchGFX/generated/fonts/src/Table_Asap_Regular_32_4bpp.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/UnmappedDataFont.o : ../TouchGFX/generated/fonts/src/UnmappedDataFont.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/FrontendApplicationBase.o : ../TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/MainViewBase.o : ../TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/BitmapDatabase.o : ../TouchGFX/generated/images/src/BitmapDatabase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_background.o : ../TouchGFX/generated/images/src/image_background.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_gotoMenu.o : ../TouchGFX/generated/images/src/image_gotoMenu.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle00.o : ../TouchGFX/generated/images/src/image_particle00.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle01.o : ../TouchGFX/generated/images/src/image_particle01.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle02.o : ../TouchGFX/generated/images/src/image_particle02.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle03.o : ../TouchGFX/generated/images/src/image_particle03.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle04.o : ../TouchGFX/generated/images/src/image_particle04.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle05.o : ../TouchGFX/generated/images/src/image_particle05.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle06.o : ../TouchGFX/generated/images/src/image_particle06.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle07.o : ../TouchGFX/generated/images/src/image_particle07.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle08.o : ../TouchGFX/generated/images/src/image_particle08.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle09.o : ../TouchGFX/generated/images/src/image_particle09.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_particle10.o : ../TouchGFX/generated/images/src/image_particle10.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_TGFX_shadow_logo.o : ../TouchGFX/generated/images/src/image_TGFX_shadow_logo.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_wheel_selector_background.o : ../TouchGFX/generated/images/src/image_wheel_selector_background.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/image_wheel_selector_overlay.o : ../TouchGFX/generated/images/src/image_wheel_selector_overlay.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/LanguageGb.o : ../TouchGFX/generated/texts/src/LanguageGb.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/Texts.o : ../TouchGFX/generated/texts/src/Texts.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/TypedTextDatabase.o : ../TouchGFX/generated/texts/src/TypedTextDatabase.cpp $(all_make_files) |$(BINARYDIR)
-	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/app_threadx.o : ../Core/Src/app_threadx.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/main.o : ../Core/Src/main.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_msp.o : ../Core/Src/stm32f4xx_hal_msp.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_hal_timebase_tim.o : ../Core/Src/stm32f4xx_hal_timebase_tim.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/stm32f4xx_it.o : ../Core/Src/stm32f4xx_it.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/syscalls.o : ../Core/Src/syscalls.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/sysmem.o : ../Core/Src/sysmem.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/system_stm32f4xx.o : ../Core/Src/system_stm32f4xx.c $(all_make_files) |$(BINARYDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_context_restore.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_restore.S $(all_make_files) |$(BINARYDIR)
+# ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src
+$(BINARYDIR)/%.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/%.S $(all_make_files) |$(BINARYDIR) 
 	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/clock/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/progress_indicators/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/containers/scrollers/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/canvas/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph 
+$(BINARYDIR)/%.o : ../Middlewares/ST/touchgfx/framework/source/touchgfx/widgets/graph/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/gui_generated/src/common
+$(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/common/%.cpp $(all_make_files) |$(BINARYDIR) 
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/gui_generated/src/terminal_screen
+$(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/terminal_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/gui_generated/src/touch_callib_screen
+$(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/touch_callib_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/images/src
+$(BINARYDIR)/%.o : ../TouchGFX/generated/images/src/%.cpp $(all_make_files) |$(BINARYDIR)        
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/fonts/src
+$(BINARYDIR)/%.o : ../TouchGFX/generated/fonts/src/%.cpp $(all_make_files) |$(BINARYDIR)         
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/generated/texts/src
+$(BINARYDIR)/%.o : ../TouchGFX/generated/texts/src/%.cpp $(all_make_files) |$(BINARYDIR)         
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/gui/src/common
+$(BINARYDIR)/%.o : ../TouchGFX/gui/src/common/%.cpp $(all_make_files) |$(BINARYDIR)              
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/gui/src/model
+$(BINARYDIR)/%.o : ../TouchGFX/gui/src/model/%.cpp $(all_make_files) |$(BINARYDIR)               
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/gui/src/terminal_screen
+$(BINARYDIR)/%.o : ../TouchGFX/gui/src/terminal_screen/%.cpp $(all_make_files) |$(BINARYDIR)     
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/gui/src/touch_callib_screen
+$(BINARYDIR)/%.o : ../TouchGFX/gui/src/touch_callib_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/target/generated
+$(BINARYDIR)/%.o : ../TouchGFX/target/generated/%.cpp $(all_make_files) |$(BINARYDIR)           
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/target
+$(BINARYDIR)/%.o : ../TouchGFX/target/%.cpp $(all_make_files) |$(BINARYDIR)                      
+	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../TouchGFX/App
+$(BINARYDIR)/%.o : ../TouchGFX/App/%.c $(all_make_files) |$(BINARYDIR)
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../AZURE_RTOS/App
+$(BINARYDIR)/%.o : ../AZURE_RTOS/App/%.c $(all_make_files) |$(BINARYDIR)                         
+	$(CC) $(CFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc
+$(BINARYDIR)/%.a : ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/%.a
+	$(CP) ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/%.a $(BINARYDIR)/%.a
 
-
-$(BINARYDIR)/tx_thread_context_save.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_context_save.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_interrupt_control.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_interrupt_control.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_schedule.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_schedule.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_stack_build.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_stack_build.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_thread_system_return.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_thread_system_return.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-
-$(BINARYDIR)/tx_timer_interrupt.o : ../Middlewares/ST/threadx/ports/cortex_m4/gnu/src/tx_timer_interrupt.S $(all_make_files) |$(BINARYDIR)
-	$(AS) $(ASFLAGS) -c $< -o $@ $(ASM_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
-
-$(BINARYDIR)/libtouchgfx-float-abi-hard.a : ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx-float-abi-hard.a
-	$(CP) ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx-float-abi-hard.a $(BINARYDIR)/libtouchgfx-float-abi-hard.a
-
-$(BINARYDIR)/libtouchgfx.a : ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx.a
-	$(CP) ../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc/libtouchgfx.a $(BINARYDIR)/libtouchgfx.a
 

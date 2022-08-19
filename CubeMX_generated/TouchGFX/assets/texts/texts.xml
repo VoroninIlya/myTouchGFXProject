@@ -4,20 +4,222 @@
     <Language Id="GB" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1">
-      <Text Id="particles_wheel_selector_background" Alignment="Center" TypographyId="wheel_selector_small">
-        <Translation Language="GB">&lt;Particles&gt;</Translation>
+    <TextGroup Id="Keys">
+      <Text Id="t_cursor" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">|</Translation>
       </Text>
-      <Text Id="particles_wheel_selector_center" Alignment="Center" TypographyId="wheel_selector_large">
-        <Translation Language="GB">&lt;Particles&gt;</Translation>
+      <Text Id="t_space" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">space</Translation>
       </Text>
-      <Text Id="__SingleUse_GKCD" Alignment="Left" TypographyId="wheel_selector_small">
-        <Translation Language="GB">Number of Bubbles</Translation>
+      <Text Id="t_entr" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">entr</Translation>
+      </Text>
+      <Text Id="t_bspc" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">bspc</Translation>
+      </Text>
+      <Text Id="t_shift" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">shift</Translation>
+      </Text>
+      <Text Id="t_kb_sw_1" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">?123</Translation>
+      </Text>
+      <Text Id="t_kb_sw_2" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">ABC</Translation>
+      </Text>
+      <Text Id="t_cb_sw_3" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">=\&lt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TYN0" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">!</Translation>
+      </Text>
+      <Text Id="__SingleUse_FE6A" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PD7H" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">:</Translation>
+      </Text>
+      <Text Id="__SingleUse_M5UX" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">'</Translation>
+      </Text>
+      <Text Id="__SingleUse_4NPY" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">"</Translation>
+      </Text>
+      <Text Id="__SingleUse_PRLE" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">*</Translation>
+      </Text>
+      <Text Id="__SingleUse_SDP3" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">)</Translation>
+      </Text>
+      <Text Id="__SingleUse_T7AN" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">(</Translation>
+      </Text>
+      <Text Id="t_less" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">&lt;</Translation>
+      </Text>
+      <Text Id="t_greatr" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="t_rslash" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">/</Translation>
+      </Text>
+      <Text Id="t_lslash" Alignment="Left" TypographyId="wheel_selector_small">
+        <Translation Language="GB">\</Translation>
+      </Text>
+      <Text Id="t_plus" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">+</Translation>
+      </Text>
+      <Text Id="t_minus" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="t_and" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">&amp;</Translation>
+      </Text>
+      <Text Id="t_undsc" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">_</Translation>
+      </Text>
+      <Text Id="t" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">#</Translation>
+      </Text>
+      <Text Id="t_at" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">@</Translation>
+      </Text>
+      <Text Id="t_comma" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">,</Translation>
+      </Text>
+      <Text Id="t_point" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">.</Translation>
+      </Text>
+      <Text Id="t_0" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="t_1" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="t_2" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="t_3" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">3</Translation>
+      </Text>
+      <Text Id="t_4" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">4</Translation>
+      </Text>
+      <Text Id="t_5" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">5</Translation>
+      </Text>
+      <Text Id="t_6" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">6</Translation>
+      </Text>
+      <Text Id="t_7" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">7</Translation>
+      </Text>
+      <Text Id="t_8" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">8</Translation>
+      </Text>
+      <Text Id="t_9" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">9</Translation>
+      </Text>
+      <Text Id="t_a" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">a</Translation>
+      </Text>
+      <Text Id="t_b" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">b</Translation>
+      </Text>
+      <Text Id="t_c" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">c</Translation>
+      </Text>
+      <Text Id="t_d" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">d</Translation>
+      </Text>
+      <Text Id="t_e" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">e</Translation>
+      </Text>
+      <Text Id="t_f" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">f</Translation>
+      </Text>
+      <Text Id="t_g" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">g</Translation>
+      </Text>
+      <Text Id="t_h" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">h</Translation>
+      </Text>
+      <Text Id="t_i" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">i</Translation>
+      </Text>
+      <Text Id="t_j" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">j</Translation>
+      </Text>
+      <Text Id="t_k" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">k</Translation>
+      </Text>
+      <Text Id="t_l" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">l</Translation>
+      </Text>
+      <Text Id="t_m" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">m</Translation>
+      </Text>
+      <Text Id="t_n" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">n</Translation>
+      </Text>
+      <Text Id="t_o" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">o</Translation>
+      </Text>
+      <Text Id="t_p" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">p</Translation>
+      </Text>
+      <Text Id="t_q" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">q</Translation>
+      </Text>
+      <Text Id="t_r" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">r</Translation>
+      </Text>
+      <Text Id="t_s" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">s</Translation>
+      </Text>
+      <Text Id="t_t" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">t</Translation>
+      </Text>
+      <Text Id="t_u" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">u</Translation>
+      </Text>
+      <Text Id="t_v" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">v</Translation>
+      </Text>
+      <Text Id="t_w" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">w</Translation>
+      </Text>
+      <Text Id="t_x" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">x</Translation>
+      </Text>
+      <Text Id="t_y" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">y</Translation>
+      </Text>
+      <Text Id="t_z" Alignment="Center" TypographyId="wheel_selector_small">
+        <Translation Language="GB">z</Translation>
       </Text>
     </TextGroup>
+    <TextGroup Id="touch_callib_cmd">
+      <Text Id="t_callib_header" Alignment="Left" TypographyId="wheel_selector_large">
+        <Translation Language="GB">Touchscreen callibration: </Translation>
+      </Text>
+      <Text Id="t_touch_point1" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB" Alignment="Left">please touch point 1</Translation>
+      </Text>
+      <Text Id="t_touch_point2" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">please touch point 2</Translation>
+      </Text>
+      <Text Id="t_touch_point3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">please touch point 3</Translation>
+      </Text>
+      <Text Id="t_touch_point4" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">please touch point 4</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted" />
   </Texts>
   <Typographies>
-    <Typography Id="wheel_selector_small" Font="Asap-Regular.ttf" Size="24" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
-    <Typography Id="wheel_selector_large" Font="Asap-Regular.ttf" Size="32" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="wheel_selector_small" Font="Asap-Regular.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="wheel_selector_large" Font="Asap-Regular.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Typography_00" Font="Asap-Regular.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

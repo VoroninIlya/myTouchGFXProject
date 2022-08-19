@@ -119,7 +119,16 @@ uint8_t BSP_TS_Init(uint16_t XSize, uint16_t YSize)
 void BSP_TS_GetState(TS_StateTypeDef* TsState)
 {
 	static uint32_t _x = 0, _y = 0;
-	uint16_t xDiff, yDiff, x, y, xr, yr;
+	uint16_t x = 0, y = 0;
+	uint16_t t_x_1 = (1053 + 1104) / 2;
+	uint16_t t_x_2 = (3664 + 3583) / 2;
+	uint16_t w_x_1 = 230;
+	uint16_t w_x_2 = 10;
+	
+	uint16_t t_y_1 = (510 + 489) / 2;
+	uint16_t t_y_2 = (3784 + 3806) / 2;
+	uint16_t w_y_1 = 10;
+	uint16_t w_y_2 = 310;
 
 	TsState->TouchDetected = TsDrv->DetectTouch(TS_I2C_ADDRESS);
 
@@ -127,60 +136,10 @@ void BSP_TS_GetState(TS_StateTypeDef* TsState)
 	{
 		TsDrv->GetXY(TS_I2C_ADDRESS, &x, &y);
 
-		/* Y value first correction */
-		y -= 360;
-
-		/* Y value second correction */
-		yr = y / 11;
-
-		/* Return y position value */
-		if (yr <= 0)
-		{
-			yr = 0;
-		}
-		else if (yr > TsYBoundary)
-		{
-			yr = TsYBoundary - 1;
-		}
-		else
-		{}
-		y = yr;
-
-		/* X value first correction */
-		if (x <= 3000)
-		{
-			x = 3870 - x;
-		}
-		else
-		{
-			x = 3800 - x;
-		}
-
-		/* X value second correction */
-		xr = x / 15;
-
-		/* Return X position value */
-		if (xr <= 0)
-		{
-			xr = 0;
-		}
-		else if (xr > TsXBoundary)
-		{
-			xr = TsXBoundary - 1;
-		}
-		else
-		{}
-
-		x = xr;
-		xDiff = x > _x ? (x - _x) : (_x - x);
-		yDiff = y > _y ? (y - _y) : (_y - y);
-
-		if (xDiff + yDiff > 5)
-		{
-			_x = x;
-			_y = y;
-		}
-
+		_x = w_x_1 + (x - t_x_1)*(w_x_2 - w_x_1) / (t_x_2 - t_x_1);
+		
+		_y = w_y_1 + (y - t_y_1)*(w_y_2 - w_y_1) / (t_y_2 - t_y_1);
+		
 		/* Update the X position */
 		TsState->X = _x;
 

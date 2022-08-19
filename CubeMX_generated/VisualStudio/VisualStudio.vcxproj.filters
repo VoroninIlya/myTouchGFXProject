@@ -508,9 +508,6 @@
     <Filter Include="Source files\TouchGFX\generated\gui_generated\src\common">
       <UniqueIdentifier>{3a6b50a0-b74b-46d8-8293-0682587ca57f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source files\TouchGFX\generated\gui_generated\src\main_screen">
-      <UniqueIdentifier>{a8290a49-0371-4500-a249-ae01dacda998}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source files\TouchGFX\generated\images">
       <UniqueIdentifier>{6941fc22-c5b4-45ee-8015-dbd37b4f3987}</UniqueIdentifier>
     </Filter>
@@ -567,9 +564,6 @@
     </Filter>
     <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\common">
       <UniqueIdentifier>{9e99974b-9ee7-4c2d-a610-7361000992b8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\main_screen">
-      <UniqueIdentifier>{203a4105-bdeb-41a2-bae1-0d7afd71da47}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\TouchGFX\generated\gui_generated\src">
       <UniqueIdentifier>{a728a8c4-788a-4fad-93cf-5d6b19a5d6f8}</UniqueIdentifier>
@@ -640,9 +634,6 @@
     <Filter Include="Source files\TouchGFX\gui\src\common\ScrollingWheels">
       <UniqueIdentifier>{b04234b8-23d6-4d73-a5cf-b29bba0cd60e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source files\TouchGFX\gui\src\main_screen">
-      <UniqueIdentifier>{0a06d47a-efe3-4fa3-a3fe-a977b7350c58}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source files\TouchGFX\gui\src\model">
       <UniqueIdentifier>{fb5de787-efd1-4ff0-808f-e98add1b772c}</UniqueIdentifier>
     </Filter>
@@ -660,9 +651,6 @@
     </Filter>
     <Filter Include="Header files\TouchGFX\gui\include\gui\common\ScrollingWheels">
       <UniqueIdentifier>{6b0fd7a4-d6c6-474d-9d41-fded1825e8c2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header files\TouchGFX\gui\include\gui\main_screen">
-      <UniqueIdentifier>{493d3432-8825-48ac-88d4-d878935283a3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\TouchGFX\gui\include\gui\model">
       <UniqueIdentifier>{cb83836a-901b-45c4-8c14-24fdb6a9be68}</UniqueIdentifier>
@@ -684,6 +672,54 @@
     </Filter>
     <Filter Include="libs">
       <UniqueIdentifier>{61da75c1-d9cb-4d5d-86c0-8c128a4c68c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include\gui_generated\terminal_screen">
+      <UniqueIdentifier>{783e2805-2302-421a-aa66-5b94d3e1e32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen">
+      <UniqueIdentifier>{5023a706-fea9-4550-8078-6eb1caa181d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\src\terminal_screen">
+      <UniqueIdentifier>{b4f1ce19-7c13-415b-8596-24e6a3533458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\src\touch_callib_screen">
+      <UniqueIdentifier>{88c554ca-c40d-4a76-8201-b451a69b2d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\terminal_screen">
+      <UniqueIdentifier>{915e98d3-bef5-4fc3-8ccd-512fece5e9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen">
+      <UniqueIdentifier>{12bf41f0-9188-4032-a7b4-19f293639e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\src\terminal_screen">
+      <UniqueIdentifier>{9da7d9d5-81e6-4777-ac79-4ddf23a0cf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\src\touch_callib_screen">
+      <UniqueIdentifier>{5b907479-ce37-4819-b3a7-1cde565dbcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui\terminal_screen">
+      <UniqueIdentifier>{63d93361-e172-4377-a10a-17b39d3e6157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui\touch_callib_screen">
+      <UniqueIdentifier>{203be8de-5d5f-426a-8bd2-b830bfc2e258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src\terminal_screen">
+      <UniqueIdentifier>{514909c6-2d40-4298-b9ce-30f60b132f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src\touch_callib_screen">
+      <UniqueIdentifier>{6271b3f1-51b6-43e0-9c2d-de91aa440be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui\terminal_screen">
+      <UniqueIdentifier>{32cc8895-f1dd-417c-a282-6195ebc489a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui\touch_callib_screen">
+      <UniqueIdentifier>{0e0ce433-ad5f-4855-87ed-0f814944df1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src\terminal_screen">
+      <UniqueIdentifier>{f17fc6a9-6f4d-4f62-843e-dcb4adad2fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src\touch_callib_screen">
+      <UniqueIdentifier>{390f3f13-4ba2-4174-ae1d-00db90c8835e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1621,9 +1657,6 @@
     <ClCompile Include="..\TouchGFX\generated\gui_generated\src\common\FrontendApplicationBase.cpp">
       <Filter>Source files\TouchGFX\generated\gui_generated\src\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\TouchGFX\generated\gui_generated\src\main_screen\MainViewBase.cpp">
-      <Filter>Source files\TouchGFX\generated\gui_generated\src\main_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\TouchGFX\generated\images\src\BitmapDatabase.cpp">
       <Filter>Source files\TouchGFX\generated\images\src</Filter>
     </ClCompile>
@@ -1708,9 +1741,6 @@
     <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\common\SimConstants.hpp">
       <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp">
-      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\main_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\TouchGFX\generated\images\include\BitmapDatabase.hpp">
       <Filter>Header files\TouchGFX\generated\images\include</Filter>
     </ClInclude>
@@ -1724,6 +1754,42 @@
       <Filter>Header files\TouchGFX\generated\videos\include\videos</Filter>
     </ClInclude>
     <None Include="ClassDiagram.cd" />
+    <None Include="..\TouchGFX\generated\fonts\UnicodeListAsap_Regular_12_4.txt">
+      <Filter>Source files\TouchGFX\generated\fonts</Filter>
+    </None>
+    <None Include="..\TouchGFX\generated\fonts\UnicodeListAsap_Regular_16_4.txt">
+      <Filter>Source files\TouchGFX\generated\fonts</Filter>
+    </None>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Font_Asap_Regular_12_4bpp_0.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Font_Asap_Regular_16_4bpp_0.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Kerning_Asap_Regular_12_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Kerning_Asap_Regular_16_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Table_Asap_Regular_12_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Table_Asap_Regular_16_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\gui_generated\src\terminal_screen\TerminalViewBase.cpp">
+      <Filter>Source files\TouchGFX\generated\gui_generated\src\terminal_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\gui_generated\src\touch_callib_screen\touch_callibViewBase.cpp">
+      <Filter>Source files\TouchGFX\generated\gui_generated\src\touch_callib_screen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\terminal_screen\TerminalViewBase.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\terminal_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen\touch_callibViewBase.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\touch_callib_screen</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.mak">
@@ -2739,14 +2805,20 @@
     <ClCompile Include="..\TouchGFX\gui\src\common\ScrollingWheels\TouchForwarder.cpp">
       <Filter>Source files\TouchGFX\gui\src\common\ScrollingWheels</Filter>
     </ClCompile>
-    <ClCompile Include="..\TouchGFX\gui\src\main_screen\MainPresenter.cpp">
-      <Filter>Source files\TouchGFX\gui\src\main_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\TouchGFX\gui\src\main_screen\MainView.cpp">
-      <Filter>Source files\TouchGFX\gui\src\main_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\TouchGFX\gui\src\model\Model.cpp">
       <Filter>Source files\TouchGFX\gui\src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\terminal_screen\TerminalPresenter.cpp">
+      <Filter>Source files\TouchGFX\gui\src\terminal_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\terminal_screen\TerminalView.cpp">
+      <Filter>Source files\TouchGFX\gui\src\terminal_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\touch_callib_screen\touch_callibPresenter.cpp">
+      <Filter>Source files\TouchGFX\gui\src\touch_callib_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\touch_callib_screen\touch_callibView.cpp">
+      <Filter>Source files\TouchGFX\gui\src\touch_callib_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2819,17 +2891,23 @@
     <ClInclude Include="..\TouchGFX\gui\include\gui\common\ScrollingWheels\TouchForwarder.hpp">
       <Filter>Header files\TouchGFX\gui\include\gui\common\ScrollingWheels</Filter>
     </ClInclude>
-    <ClInclude Include="..\TouchGFX\gui\include\gui\main_screen\MainPresenter.hpp">
-      <Filter>Header files\TouchGFX\gui\include\gui\main_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TouchGFX\gui\include\gui\main_screen\MainView.hpp">
-      <Filter>Header files\TouchGFX\gui\include\gui\main_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\TouchGFX\gui\include\gui\model\Model.hpp">
       <Filter>Header files\TouchGFX\gui\include\gui\model</Filter>
     </ClInclude>
     <ClInclude Include="..\TouchGFX\gui\include\gui\model\ModelListener.hpp">
       <Filter>Header files\TouchGFX\gui\include\gui\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\terminal_screen\TerminalPresenter.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\terminal_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\terminal_screen\TerminalView.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\terminal_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\touch_callib_screen\touch_callibPresenter.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\touch_callib_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\touch_callib_screen\touch_callibView.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\touch_callib_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -15,12 +15,14 @@ struct Typography
 {
     static const touchgfx::FontId WHEEL_SELECTOR_SMALL = 0;
     static const touchgfx::FontId WHEEL_SELECTOR_LARGE = 1;
+    static const touchgfx::FontId TYPOGRAPHY_00 = 2;
 };
 
 struct TypographyFontIndex
 {
-    static const touchgfx::FontId WHEEL_SELECTOR_SMALL = 0; // Asap_Regular_24_4bpp
-    static const touchgfx::FontId WHEEL_SELECTOR_LARGE = 1; // Asap_Regular_32_4bpp
+    static const touchgfx::FontId WHEEL_SELECTOR_SMALL = 0; // Asap_Regular_16_4bpp
+    static const touchgfx::FontId WHEEL_SELECTOR_LARGE = 0; // Asap_Regular_16_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_00 = 1;        // Asap_Regular_12_4bpp
     static const uint16_t NUMBER_OF_FONTS = 2;
 };
 

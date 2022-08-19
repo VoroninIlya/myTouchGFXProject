@@ -10,10 +10,13 @@ touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId typography)
     switch (typography)
     {
     case Typography::WHEEL_SELECTOR_SMALL:
-        // Asap_Regular_24_4bpp
+        // Asap_Regular_16_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
     case Typography::WHEEL_SELECTOR_LARGE:
-        // Asap_Regular_32_4bpp
+        // Asap_Regular_16_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
+    case Typography::TYPOGRAPHY_00:
+        // Asap_Regular_12_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
     default:
         return 0;
