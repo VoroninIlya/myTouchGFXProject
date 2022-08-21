@@ -376,12 +376,14 @@ $(BINARYDIR)/%.o : ../Middlewares/ST/usbx/common/usbx_device_classes/src/%.c $(a
 # ../TouchGFX/generated/gui_generated/src/common
 $(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/common/%.cpp $(all_make_files) |$(BINARYDIR) 
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# =============================== add new screens here ======================================================
 # ../TouchGFX/generated/gui_generated/src/terminal_screen
 $(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/terminal_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 # ../TouchGFX/generated/gui_generated/src/touch_callib_screen
 $(BINARYDIR)/%.o : ../TouchGFX/generated/gui_generated/src/touch_callib_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ===========================================================================================================
 # ../TouchGFX/generated/images/src
 $(BINARYDIR)/%.o : ../TouchGFX/generated/images/src/%.cpp $(all_make_files) |$(BINARYDIR)        
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
@@ -397,12 +399,14 @@ $(BINARYDIR)/%.o : ../TouchGFX/gui/src/common/%.cpp $(all_make_files) |$(BINARYD
 # ../TouchGFX/gui/src/model
 $(BINARYDIR)/%.o : ../TouchGFX/gui/src/model/%.cpp $(all_make_files) |$(BINARYDIR)               
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# =============================== add new screens here ======================================================
 # ../TouchGFX/gui/src/terminal_screen
 $(BINARYDIR)/%.o : ../TouchGFX/gui/src/terminal_screen/%.cpp $(all_make_files) |$(BINARYDIR)     
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
 # ../TouchGFX/gui/src/touch_callib_screen
 $(BINARYDIR)/%.o : ../TouchGFX/gui/src/touch_callib_screen/%.cpp $(all_make_files) |$(BINARYDIR) 
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)
+# ===========================================================================================================
 # ../TouchGFX/target/generated
 $(BINARYDIR)/%.o : ../TouchGFX/target/generated/%.cpp $(all_make_files) |$(BINARYDIR)           
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(CC_DEPENDENCY_FILE_SPECIFIER) $(@:.o=.dep)

@@ -14,3 +14,12 @@ TouchGFX_generated/VisualStudio/.vs
 TouchGFX_generated/VisualStudio/.visualgdb
 TouchGFX_generated/VisualStudio/Debug
 TouchGFX_generated/VisualStudio/Release
+bootloader/TouchGFX/build
+bootloader/VisualStudio/.vs
+bootloader/VisualStudio/.visualgdb
+bootloader/VisualStudio/Debug
+bootloader/VisualStudio/Release
+bootloader/MDK-ARM/DebugConfig
+bootloader/MDK-ARM/list
+bootloader/MDK-ARM/obj
+bootloader/MDK-ARM/RTE

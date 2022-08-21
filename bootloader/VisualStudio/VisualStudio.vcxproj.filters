@@ -1,0 +1,2439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{11128977-d872-4e91-8f5d-bd46c177d12b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{4b78652c-f466-4e8f-a674-10cb00c1f5e5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{8d7a553e-884a-4da8-8a43-b5ecbe3bd53d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{7ac2cc53-147b-40b5-bb87-dab23899d1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{43628085-8c93-494a-92d1-49552dc6c42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{379ffaaf-eb0b-4001-ad1a-dc426289b371}</UniqueIdentifier>
+      <Extensions>mak</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{b7980bc1-beb0-45da-93ed-35b376b0df53}</UniqueIdentifier>
+      <Extensions>vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\Core">
+      <UniqueIdentifier>{951034d1-c613-4d59-888d-ad52d5c915ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Inc">
+      <UniqueIdentifier>{d75e4b06-6303-4411-86ef-75299924d283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Core\Src">
+      <UniqueIdentifier>{57c44e74-d8de-4185-b19a-2d1f0f49264b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core">
+      <UniqueIdentifier>{f9492828-b2cd-4a82-89bf-3b018e2218bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Inc">
+      <UniqueIdentifier>{e099a008-9642-468f-bf57-41aee9457c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Src">
+      <UniqueIdentifier>{6e0526c2-eda4-4c64-b841-f78234096461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Core\Startup">
+      <UniqueIdentifier>{802719d1-a7b4-4bcb-911f-428261a7ac78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers">
+      <UniqueIdentifier>{854431c8-cf02-491f-bd74-22a82001f7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\BSP">
+      <UniqueIdentifier>{be9c44ef-d0f1-40d8-bd1f-f0fa03ac26fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\BSP\Components">
+      <UniqueIdentifier>{829a8a12-202d-45b3-9030-ea4cbdf9226e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\BSP\Components\Common">
+      <UniqueIdentifier>{3ffff1dc-7542-4ccf-9085-4e2347e5aa30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\BSP\Components\ili9341">
+      <UniqueIdentifier>{1ffa37cd-990b-45c2-a6cd-7c683c183047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\BSP\Components\stmpe811">
+      <UniqueIdentifier>{804dba99-0faf-4921-b8f7-0c865f6c92f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS">
+      <UniqueIdentifier>{9fd3bc8e-3640-474d-8d1b-6d420256dff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{6169b1cb-6aba-46e1-b111-a69fe6810dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{c0152b9b-eefb-4302-9d1e-0e909f64ff95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST\STM32F4xx">
+      <UniqueIdentifier>{29ea0c35-d38a-4b64-ae46-2e5a71a8de37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Device\ST\STM32F4xx\Include">
+      <UniqueIdentifier>{edb6a1d6-2507-46be-b95d-b2fca0f5af70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{2f376537-c094-4565-887f-749d745a2125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{ebf6e71f-d8bb-4204-acbb-decfe4aaa14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32F4xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{b409c6c2-6ca3-4484-a234-3beb4e7501ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{02b7111c-2604-4b74-91bd-7e5e6e2fc343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32F4xx_HAL_Driver\Src">
+      <UniqueIdentifier>{c15f2197-8082-4893-846a-5cb27755b4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers">
+      <UniqueIdentifier>{f454f69e-8944-4375-9b7c-54e210abb1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\BSP">
+      <UniqueIdentifier>{d2dc0637-220c-4d65-b8fd-6e0e3f069ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\BSP\Components">
+      <UniqueIdentifier>{dc0dc033-68d5-42bb-acec-036b8d77dea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\BSP\Components\Common">
+      <UniqueIdentifier>{bc65045b-936e-4d01-987a-784643018ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\BSP\Components\ili9341">
+      <UniqueIdentifier>{c6f08026-048c-4132-8568-92b9ae1e4a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\BSP\Components\stmpe811">
+      <UniqueIdentifier>{047b2c32-decf-4c72-909a-6a92826cbb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS">
+      <UniqueIdentifier>{58bb1371-400e-4bbb-802a-74f06d153908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{19ccc431-7205-4bd7-9743-fd3c4b574c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{48bab2d8-f370-4a90-9e72-53ce01b347f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST\STM32F4xx">
+      <UniqueIdentifier>{4b6dbed2-2495-4047-8823-4bb634f2890a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Device\ST\STM32F4xx\Include">
+      <UniqueIdentifier>{1f3c26dd-46fa-4249-803d-3428aafdafe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{4f38b6cf-0f9a-46ae-9498-ead89dde0440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{59c64a04-3859-439c-b9ec-480e06340176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32F4xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{e74e9b70-b421-4536-9786-a7f2322a8c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{52e05ed7-d4fc-4a9f-987c-5855aec02158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32F4xx_HAL_Driver\Src">
+      <UniqueIdentifier>{52f81b22-199e-4d47-8ae7-f89d60232fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FATFS">
+      <UniqueIdentifier>{41de4f28-b7f2-45b5-b0f2-6d2c51a29b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FATFS\App">
+      <UniqueIdentifier>{6d1cece6-5571-4d24-a8ca-83d5c0b193d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FATFS\Target">
+      <UniqueIdentifier>{dc8d05ea-10d2-4a25-b4cc-144607f4ccd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FATFS">
+      <UniqueIdentifier>{5d6cc992-f443-4072-ac34-138699746736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FATFS\App">
+      <UniqueIdentifier>{35781dc4-9e02-4990-9455-844436d01839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FATFS\Target">
+      <UniqueIdentifier>{b3e713d5-94a6-44b9-a5b3-509cda0825a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gcc">
+      <UniqueIdentifier>{e6be4603-574e-4e0f-babb-8183f3c87e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\gcc">
+      <UniqueIdentifier>{86c1caad-5767-4197-b918-6eafa4d48902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares">
+      <UniqueIdentifier>{71556097-8b44-48c6-9eca-fee89324079f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST">
+      <UniqueIdentifier>{66b1b59b-1088-4117-a6d4-9eb94a510175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library">
+      <UniqueIdentifier>{eb3a48e3-f1b2-4ad5-9b68-23953d031d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Class">
+      <UniqueIdentifier>{d979b1d1-ab7d-456f-80f8-781742a6e1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC">
+      <UniqueIdentifier>{58df3a4a-1d71-4b07-980c-e88e52b38ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc">
+      <UniqueIdentifier>{4718bb9f-712e-4c18-9667-cf2233d50605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src">
+      <UniqueIdentifier>{688fb2b8-9228-45e8-86aa-ebe9e1e4e8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Core">
+      <UniqueIdentifier>{d361027e-7665-435b-beff-251ca13ac98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc">
+      <UniqueIdentifier>{a4ce75e5-8e32-4a20-8099-2c062fc25273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\STM32_USB_Device_Library\Core\Src">
+      <UniqueIdentifier>{f78fcfaf-8ce0-4d32-9b13-b8a8c4fb074b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx">
+      <UniqueIdentifier>{05c8d468-b0f7-4b4b-968f-15c254102ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty">
+      <UniqueIdentifier>{b9a9c751-9207-4d95-8b2c-d34c92fa0c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty\libjpeg">
+      <UniqueIdentifier>{8d877010-f6d4-4928-b43d-333cd2412dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include">
+      <UniqueIdentifier>{4f2dd5f7-cd4d-43eb-ac19-9d7f32692abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework">
+      <UniqueIdentifier>{730d13d2-cd2b-49f6-abcf-c513dd8cab83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include">
+      <UniqueIdentifier>{59978faa-c60d-4bae-9150-4408027afaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\common">
+      <UniqueIdentifier>{c99300c3-1b8f-48cb-b022-d8e9b944ccbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\mvp">
+      <UniqueIdentifier>{897be1bd-0862-4f5b-af8e-f91fc2f04679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform">
+      <UniqueIdentifier>{f4ca9fa4-8608-437c-9b25-4c7171b242bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\core">
+      <UniqueIdentifier>{8da5755b-e70f-4f87-8bc5-594a0eb184a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\driver">
+      <UniqueIdentifier>{700d072e-c07e-4833-997a-e34b6a89642a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\driver\button">
+      <UniqueIdentifier>{dcad8525-4994-4b2b-96cd-7af06841d863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\driver\i2c">
+      <UniqueIdentifier>{59787ef5-ff3c-43a8-9ba5-c28c97e0543b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\driver\lcd">
+      <UniqueIdentifier>{eb7565a6-e2ad-4a4d-8e1a-b356292e0e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\driver\touch">
+      <UniqueIdentifier>{62d23957-b136-46b3-af88-a35ff4dce7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\hal">
+      <UniqueIdentifier>{7ee69476-67d1-4979-8b66-a6fe9219332b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator">
+      <UniqueIdentifier>{747133b3-7140-4dd5-acf1-b29ce945d1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2">
+      <UniqueIdentifier>{c46191de-bc2d-4b4a-b2b2-5a19c11f9c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor">
+      <UniqueIdentifier>{53613bb4-be49-4b72-bfdb-48666f13769f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2">
+      <UniqueIdentifier>{c5239afd-924c-4217-87e5-68245a43f220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx">
+      <UniqueIdentifier>{63566c80-8078-4749-bac0-3184de6b8131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer">
+      <UniqueIdentifier>{909ab8ce-b549-4a11-a450-6ac3958727b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers">
+      <UniqueIdentifier>{fd76496f-7efc-4a56-b397-f0740720603a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons">
+      <UniqueIdentifier>{f055a0c6-2e38-4008-95a4-5a469e108d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock">
+      <UniqueIdentifier>{c295ca06-3e4e-4fc9-91e1-59ef84391912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators">
+      <UniqueIdentifier>{59bfa177-b816-4eb5-b180-4916e9db9f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers">
+      <UniqueIdentifier>{49bbcd15-9644-4351-ad65-49cdcabd83eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\events">
+      <UniqueIdentifier>{c6c51ded-bdfd-43e5-9a62-f03eba633187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal">
+      <UniqueIdentifier>{1a03319e-ed6e-43c1-a30f-4fec3586085c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd">
+      <UniqueIdentifier>{20462351-7734-4e73-91c6-3fd35d6d5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins">
+      <UniqueIdentifier>{77fb866c-4c62-4080-8714-21195dd0e8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms">
+      <UniqueIdentifier>{eebf9ce7-c239-4080-b862-99045e294d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions">
+      <UniqueIdentifier>{cf4a6621-a30c-4f72-89b2-d4436239ac8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets">
+      <UniqueIdentifier>{03d5ff27-3f72-466e-a0e9-4fec9dd5d60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas">
+      <UniqueIdentifier>{1bc137b5-4b99-428c-bb5f-94ecb69a3009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph">
+      <UniqueIdentifier>{5054d5b1-edc6-4a6c-ae01-cb229b8375fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source">
+      <UniqueIdentifier>{0d900920-529c-4cf7-a915-11368c42cc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform">
+      <UniqueIdentifier>{27a6d631-d704-4ca8-b8ab-9bb0c1a31729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\driver">
+      <UniqueIdentifier>{ea904a3c-2a6a-48b3-96a1-f0e28c5a42f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\driver\touch">
+      <UniqueIdentifier>{cb287a7b-e034-44a6-9e4f-f253952d9e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal">
+      <UniqueIdentifier>{896a729f-8b84-4d6a-8129-70248724554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator">
+      <UniqueIdentifier>{ab395463-d871-4d4d-aacd-67e388d26363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2">
+      <UniqueIdentifier>{cf72c1b5-5302-4e0d-9b42-edf9a2ec38cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx">
+      <UniqueIdentifier>{6720cecf-4fef-4fab-9d3f-64c2137cabcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers">
+      <UniqueIdentifier>{ff14b85f-3db1-46b5-982b-7318eb5392f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock">
+      <UniqueIdentifier>{11b51dcf-c20f-4b59-a619-5f45ee834dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators">
+      <UniqueIdentifier>{2a5f1b85-9b96-4639-8e7d-e3898b709eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers">
+      <UniqueIdentifier>{f2b004c6-1670-4274-8a07-f7b3f34b9035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets">
+      <UniqueIdentifier>{509c3b30-3044-4b84-8ad2-96c848b8e611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas">
+      <UniqueIdentifier>{06951357-4fca-4fe2-9f12-8253d8950681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph">
+      <UniqueIdentifier>{e5311d34-0251-45a5-bdf9-d2673462c4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib">
+      <UniqueIdentifier>{3acbbd91-00b7-45ac-9217-2196bb45f6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib\sdl2">
+      <UniqueIdentifier>{4db2ef7a-c80c-44df-816e-dabd965d6f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\lib\sdl2\win32">
+      <UniqueIdentifier>{26fdbbfd-f83a-497d-b937-85946537acbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\ST\touchgfx\os">
+      <UniqueIdentifier>{31d15616-9fa3-4482-9bc3-c0b59a9b634d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party">
+      <UniqueIdentifier>{920fb6d0-c85c-4562-9127-85d18ed6b447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FatFs">
+      <UniqueIdentifier>{5c015297-8847-4e66-92d0-ab962d1b721d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FatFs\src">
+      <UniqueIdentifier>{07a95826-c2bc-4d65-bcf7-7c276a3dc73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\Third_Party\FatFs\src\option">
+      <UniqueIdentifier>{5421469c-07bf-4544-9660-64be790f2b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares">
+      <UniqueIdentifier>{1cd02bb7-e6b4-4ce6-892c-903060bfcd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST">
+      <UniqueIdentifier>{ffbe3f89-6e0d-40ba-a0bf-2c4631a82952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library">
+      <UniqueIdentifier>{0a2d1ceb-170c-41a0-b38a-65260678f7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Class">
+      <UniqueIdentifier>{9871a619-8d03-40a6-9a7f-f79f995ff777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC">
+      <UniqueIdentifier>{2fce84f3-7e06-4b11-8f34-2777c4f38b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc">
+      <UniqueIdentifier>{d49c7e79-184e-4f78-ba3b-d50702e7e9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src">
+      <UniqueIdentifier>{6d1d0e43-e20b-45fa-a9d9-8e8910d74741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Core">
+      <UniqueIdentifier>{c656bfb8-1170-47d7-bbc3-3e1f53dd1027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc">
+      <UniqueIdentifier>{1edf6074-9b41-45c5-b2cf-28880310ef3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Src">
+      <UniqueIdentifier>{01a0c039-6009-40ed-b81c-5373669967c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx">
+      <UniqueIdentifier>{9770ba25-1369-4730-ad1a-3058b9e08d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty">
+      <UniqueIdentifier>{e5c42e46-419e-48f5-b3b6-15d8c5deed62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg">
+      <UniqueIdentifier>{108e88c1-9b27-4926-89a6-af7f1e00b5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include">
+      <UniqueIdentifier>{10e42410-6708-4eba-bdfc-ab9facebc999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework">
+      <UniqueIdentifier>{64f71c70-3a48-4482-8692-d7c9bfa07052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include">
+      <UniqueIdentifier>{5eeca358-3d68-4181-96bc-5789dbd5e418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\common">
+      <UniqueIdentifier>{ebdfe766-588b-40b9-9caa-840ad3374442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\mvp">
+      <UniqueIdentifier>{6f017624-21fc-422e-8a4b-24d89ba2b2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx">
+      <UniqueIdentifier>{918ae12f-6d83-4b3f-ac32-1378b89ccdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer">
+      <UniqueIdentifier>{afa1275f-1083-40b9-8626-0bb2e79235b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers">
+      <UniqueIdentifier>{e10b153f-0143-4fd9-89a9-08a4b01ed163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons">
+      <UniqueIdentifier>{b126744d-f0eb-40ae-b8d2-60b4ade00e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock">
+      <UniqueIdentifier>{516d2a40-ed15-45a3-b52e-57b111b8bbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators">
+      <UniqueIdentifier>{c6cdcc18-abed-4b58-abdc-ee645642fefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers">
+      <UniqueIdentifier>{388dca3b-c02f-4d41-9ad3-655e414e645b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\events">
+      <UniqueIdentifier>{04d8d896-2da1-4551-b385-22bea8c2daf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal">
+      <UniqueIdentifier>{b6d65bf4-2229-4240-8e3b-6b89847674f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd">
+      <UniqueIdentifier>{cdc73db5-682d-4e88-a241-73ce8166539d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins">
+      <UniqueIdentifier>{8c33c92c-156f-4874-9086-25f7b2f1be9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms">
+      <UniqueIdentifier>{4ed4b470-b7b5-4d01-aafa-0dc68a7db044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions">
+      <UniqueIdentifier>{7c30cf75-d8f9-4b39-9fa3-8d9627895397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets">
+      <UniqueIdentifier>{de317917-f545-47f3-a825-ddcdcc410f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas">
+      <UniqueIdentifier>{80210bb8-fd2d-4856-b55a-5d32dd5e41e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph">
+      <UniqueIdentifier>{0044636b-6390-4556-b338-822e0bc2486c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source">
+      <UniqueIdentifier>{772a883b-9f3a-4984-b2ae-ce346b536884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx">
+      <UniqueIdentifier>{70b74fdb-eb7c-41bc-83ab-b6997dbf390b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers">
+      <UniqueIdentifier>{7fae074a-9565-43cb-b859-8984fd0a25fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock">
+      <UniqueIdentifier>{be8edc99-ff54-4830-b241-1e7e791a22af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators">
+      <UniqueIdentifier>{924ca4e6-6c6c-42b3-b9d7-b2b1702f470c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers">
+      <UniqueIdentifier>{e0102f6a-ea92-4662-8cb2-47bb947c9323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets">
+      <UniqueIdentifier>{32c9a5fe-f445-4117-89cb-b0d15b554ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas">
+      <UniqueIdentifier>{151ca89b-2cc4-4af4-ad9d-9e2e7a13a6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph">
+      <UniqueIdentifier>{18834569-271c-437d-88e0-b099d9cf9ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib">
+      <UniqueIdentifier>{569484ba-9f24-4b6e-aa85-2e2b1d9dcfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib\sdl2">
+      <UniqueIdentifier>{17f7114a-1f9d-4047-83b7-83c54f290fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\lib\sdl2\win32">
+      <UniqueIdentifier>{b68558f3-375d-4ee3-914d-136481cd02c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\ST\touchgfx\os">
+      <UniqueIdentifier>{e3538076-849d-4196-831f-fc8571f38247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party">
+      <UniqueIdentifier>{4e35af43-ea49-4ccb-b1cf-b01e188d6a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FatFs">
+      <UniqueIdentifier>{ba92eee7-6639-4217-b7e1-2e6da1704fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FatFs\src">
+      <UniqueIdentifier>{aec394f4-14e5-4990-93a8-6db75772996f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\Third_Party\FatFs\src\option">
+      <UniqueIdentifier>{50a0c2f2-7b43-45b4-bf50-873920a5065b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX">
+      <UniqueIdentifier>{de588129-81d6-4a6d-af44-89ad0eb20e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\App">
+      <UniqueIdentifier>{4da6561c-ec3e-439e-ada8-94356b95ca1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated">
+      <UniqueIdentifier>{3a9ca083-6433-47e9-b6cf-a780fe10d1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\fonts">
+      <UniqueIdentifier>{03da4b40-6e2f-4c18-929d-fa4ee04cdb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\fonts\include">
+      <UniqueIdentifier>{4a5b956a-2d46-4f56-b7cc-ea7e7a3ece85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\fonts\include\fonts">
+      <UniqueIdentifier>{7a30047e-9880-463d-abf0-514067d182b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\fonts\src">
+      <UniqueIdentifier>{956629ef-563e-4ae9-a146-ab24209ad1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated">
+      <UniqueIdentifier>{877066eb-cce8-48db-900c-79b987f82248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include">
+      <UniqueIdentifier>{e50f53d3-7cf2-4eb5-aaca-0cbdb8047a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include\gui_generated">
+      <UniqueIdentifier>{6ce0eb67-a97d-414e-8b81-3e338d449464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include\gui_generated\common">
+      <UniqueIdentifier>{74c462df-5219-4fc6-bae1-6fd1a04add27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\include\gui_generated\main_screen">
+      <UniqueIdentifier>{5079a22e-25ef-4740-a7e1-5490d84fce5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\src">
+      <UniqueIdentifier>{e3d55091-7a16-4fd8-a47c-d305f3910fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\src\common">
+      <UniqueIdentifier>{84ca4c10-5b9c-4306-bc33-b656cf3f3090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\gui_generated\src\main_screen">
+      <UniqueIdentifier>{3db34ed5-a349-4555-850f-003284cfbd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\images">
+      <UniqueIdentifier>{3c1d1e0f-fac8-4834-a462-09fa3ca91a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\images\include">
+      <UniqueIdentifier>{887bb68a-b86b-4e1a-90b3-829e71e1ea86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\images\src">
+      <UniqueIdentifier>{e1aa1540-9b8f-4726-a0f1-66d9b26ad7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\texts">
+      <UniqueIdentifier>{3265475f-939e-41fe-b28d-b02cfc698c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\texts\include">
+      <UniqueIdentifier>{fdc53b53-d3ea-499d-8d8d-1b1a8bc300e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\texts\include\texts">
+      <UniqueIdentifier>{1d774f9c-2b8a-4ffb-b658-09c534d90077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\texts\src">
+      <UniqueIdentifier>{2db34e9f-2664-476b-95a1-340409891dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\videos">
+      <UniqueIdentifier>{73d78c73-1acf-4c7b-95b6-148c219fe49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\videos\include">
+      <UniqueIdentifier>{8d710c89-7917-42ac-a0d0-f95bcf33104b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\generated\videos\include\videos">
+      <UniqueIdentifier>{ba37af5c-f75e-4825-9ee7-0786171b5dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui">
+      <UniqueIdentifier>{80099c94-91f7-42f7-b4d3-7f61fb5fcd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include">
+      <UniqueIdentifier>{8e5db30a-8633-4111-9536-2230cc1b69cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui">
+      <UniqueIdentifier>{eabe3d41-d8e1-4bb7-a94e-6c8fa36b21c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui\common">
+      <UniqueIdentifier>{b9ad93bd-d590-481e-aec4-d174c5bca105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui\main_screen">
+      <UniqueIdentifier>{d6193c5a-5049-43b4-ad01-61209bc333c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\include\gui\model">
+      <UniqueIdentifier>{18d6da7c-79d4-4b1c-9b11-9cd87210da05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src">
+      <UniqueIdentifier>{dae4227a-e0ad-4a81-90e9-5e6da100a61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src\common">
+      <UniqueIdentifier>{c8701afe-ff36-4082-9e7c-270aabfc9032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src\main_screen">
+      <UniqueIdentifier>{c5825ec6-83f0-429e-8a6e-0e2f58fea578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\gui\src\model">
+      <UniqueIdentifier>{eb494635-2a8d-49c6-a3c5-5d454a2c9a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\target">
+      <UniqueIdentifier>{23b2586c-d818-4bf9-8b8f-b5c4112b269d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TouchGFX\target\generated">
+      <UniqueIdentifier>{3f184693-304a-40fc-a868-340a57a75337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX">
+      <UniqueIdentifier>{c32c27e2-073d-48ab-a3c5-57f4a2af31a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\App">
+      <UniqueIdentifier>{238fcf20-fb7e-45c4-b416-fd5eed983349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated">
+      <UniqueIdentifier>{9e08f51b-f166-4ecc-a480-7969cff50db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\fonts">
+      <UniqueIdentifier>{618730f4-5130-40a1-b1ae-b4d54fd25f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\fonts\include">
+      <UniqueIdentifier>{a4dccdc0-d855-4f66-95be-a8ae38ee6598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\fonts\include\fonts">
+      <UniqueIdentifier>{7636f0b7-a24e-4493-bbe1-c25ec5b54bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\fonts\src">
+      <UniqueIdentifier>{609b4c8e-b8fe-4438-98bc-1d82832bf894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated">
+      <UniqueIdentifier>{2d4feecd-167d-4174-9ce9-5637166036d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include">
+      <UniqueIdentifier>{ee265f57-3ce5-40ea-9aab-08c0893b3c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated">
+      <UniqueIdentifier>{22c01b6d-19b5-47fa-abba-f4a8fa0afe2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\common">
+      <UniqueIdentifier>{793b17e6-2cc7-4152-8ceb-1007e96c4d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\include\gui_generated\main_screen">
+      <UniqueIdentifier>{0351b4f8-c66a-458a-b79c-41b6e5d0bdf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\src">
+      <UniqueIdentifier>{31280a95-3d97-4fed-a205-8aa56116c1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\src\common">
+      <UniqueIdentifier>{313ee065-548a-47ce-b7b7-fe35384ae962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\gui_generated\src\main_screen">
+      <UniqueIdentifier>{9b4b00a5-f9b4-4ca8-9b41-96b7b7ab73e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\images">
+      <UniqueIdentifier>{26326560-e755-4c76-ad66-e752571e9f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\images\include">
+      <UniqueIdentifier>{8d8bbdfb-9497-41ef-91e9-145493a796e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\images\src">
+      <UniqueIdentifier>{9d75d2ce-1521-4ff9-a58c-e04a85186cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator">
+      <UniqueIdentifier>{7c837be2-d613-4a4e-ba21-8c6bfbb34835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\gcc">
+      <UniqueIdentifier>{dcde4ed3-7ee9-40aa-a084-8bd9587436d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\include">
+      <UniqueIdentifier>{c9fa1a07-5f40-44bb-bff4-bbfb0dcba072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\include\simulator">
+      <UniqueIdentifier>{4881096f-0a53-4e49-9ecf-62428dfc5c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\include\simulator\video">
+      <UniqueIdentifier>{1481eb1a-52f3-48b6-99e6-dca4ccad036c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\src">
+      <UniqueIdentifier>{c0ef05fa-e088-4936-8eab-a850ed040979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\simulator\src\video">
+      <UniqueIdentifier>{433b65e3-5cfc-45e1-8328-86dfdd8ee911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\texts">
+      <UniqueIdentifier>{eb409b20-1884-4676-ad3d-7889ffbfe557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\texts\include">
+      <UniqueIdentifier>{00d7739c-c0e3-4395-90fd-6690d2cdbbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\texts\include\texts">
+      <UniqueIdentifier>{d7cee48c-6eda-4af8-95b5-9f12203430db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\texts\src">
+      <UniqueIdentifier>{94b9381a-c733-47f5-a9a8-e9a62b360765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\videos">
+      <UniqueIdentifier>{0fdc9f13-f988-40c2-904a-6963c064b805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\videos\include">
+      <UniqueIdentifier>{48b2ce41-bef4-4b38-af8a-e0e9f1a966ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\generated\videos\include\videos">
+      <UniqueIdentifier>{68f5bd51-2ec7-4503-8ff7-174b9029c850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui">
+      <UniqueIdentifier>{c18d29fa-e290-44e8-b886-1fc7f96633aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include">
+      <UniqueIdentifier>{ec1824ce-834e-4381-8ffb-8779cce27023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui">
+      <UniqueIdentifier>{83012fa9-20c0-43c0-978b-2fc4bfcb6fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui\common">
+      <UniqueIdentifier>{a3f52070-f317-417f-921d-f4dddfb35848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui\main_screen">
+      <UniqueIdentifier>{c4560f3a-1c97-4353-bd12-e76ad5964984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\include\gui\model">
+      <UniqueIdentifier>{d191b602-3d5b-46fd-b6b1-605f6b3d9784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src">
+      <UniqueIdentifier>{2325d948-1bbc-40bf-8915-8fc49c5e49ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src\common">
+      <UniqueIdentifier>{7e9ef079-9923-4ce6-bf9a-49d2d71689f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src\main_screen">
+      <UniqueIdentifier>{3364d912-a15d-423a-82ff-e938049c643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\gui\src\model">
+      <UniqueIdentifier>{feaa4ee5-e82a-4c08-9f87-f5d941a4e91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\simulator">
+      <UniqueIdentifier>{be085026-c74e-4e83-85c1-cc8ade422273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\simulator\gcc">
+      <UniqueIdentifier>{fbd7db2e-b3df-444e-8dc3-91ebaf52495d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\target">
+      <UniqueIdentifier>{d96d95e1-0e65-40fc-914d-8fe95140e07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TouchGFX\target\generated">
+      <UniqueIdentifier>{d2567bf4-591f-4c27-a350-08a74f4ab752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE">
+      <UniqueIdentifier>{7aca426c-9742-4ff5-bacd-cdd116e0e4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE\App">
+      <UniqueIdentifier>{81bedff1-0adb-4af2-a9a4-e69678cc0346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\USB_DEVICE\Target">
+      <UniqueIdentifier>{6483e32b-46b9-4a2d-9213-ca4eb6539280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE">
+      <UniqueIdentifier>{55486f07-ea83-46d8-b23f-2c7170457173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE\App">
+      <UniqueIdentifier>{849cfb38-d793-4af4-8145-9f6e053e9b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USB_DEVICE\Target">
+      <UniqueIdentifier>{ee137314-6bb2-4c5b-a4b3-5fa11126041e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{61fd3267-1d6e-4e96-a559-cf814b1b82f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stm32.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="VisualStudio-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="VisualStudio-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\Drivers\BSP\Components\ili9341\ili9341.c">
+      <Filter>Source files\Drivers\BSP\Components\ili9341</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\BSP\Components\stmpe811\stmpe811.c">
+      <Filter>Source files\Drivers\BSP\Components\stmpe811</Filter>
+    </ClCompile>
+    <None Include="..\Drivers\CMSIS\LICENSE.txt">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </None>
+    <None Include="..\Drivers\CMSIS\Device\ST\STM32F4xx\LICENSE.txt">
+      <Filter>Source files\Drivers\CMSIS\Device\ST\STM32F4xx</Filter>
+    </None>
+    <None Include="..\Drivers\STM32F4xx_HAL_Driver\LICENSE.txt">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </None>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\accelero.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\audio.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\camera.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\epd.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\gyro.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\idd.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\io.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\lcd.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\magneto.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\ts.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\Common\tsensor.h">
+      <Filter>Header files\Drivers\BSP\Components\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\ili9341\ili9341.h">
+      <Filter>Header files\Drivers\BSP\Components\ili9341</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\BSP\Components\stmpe811\stmpe811.h">
+      <Filter>Header files\Drivers\BSP\Components\stmpe811</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h">
+      <Filter>Header files\Drivers\CMSIS\Device\ST\STM32F4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Drivers\CMSIS\Device\ST\STM32F4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h">
+      <Filter>Header files\Drivers\CMSIS\Device\ST\STM32F4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_armcc.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_armclang.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_compiler.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_gcc.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_iccarm.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\cmsis_version.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_armv8mbl.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_armv8mml.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm0.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm0plus.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm1.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm23.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm3.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm33.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm7.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_sc000.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_sc300.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\mpu_armv7.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\mpu_armv8.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\tz_context.h">
+      <Filter>Header files\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dsi.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sdram.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_crc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma2d.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rtc.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header files\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</Filter>
+    </ClInclude>
+    <None Include="..\gcc\startup_stm32f429zitx.s">
+      <Filter>Source files\gcc</Filter>
+    </None>
+    <None Include="..\Middlewares\ST\STM32_USB_Device_Library\LICENSE.txt">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c">
+      <Filter>Source files\Middlewares\ST\STM32_USB_Device_Library\Core\Src</Filter>
+    </ClCompile>
+    <None Include="..\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2\SDL_config.h.cmake">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\include\platform\hal\simulator\sdl2\vendor\SDL2</Filter>
+    </None>
+    <None Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\license.txt">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\driver\touch\SDL2TouchController.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\driver\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\HALSDL2.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\HALSDL2_icon.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\platform\hal\simulator\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\CacheableContainer.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\Container.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\ListLayout.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\ModalWindow.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\ScrollableContainer.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\SlideMenu.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\Slider.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\SwipeContainer.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\ZoomAnimationImage.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock\AbstractClock.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock\AnalogClock.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock\DigitalClock.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\AbstractDirectionProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\AbstractProgressIndicator.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\BoxProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\CircleProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\ImageProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\LineProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators\TextProgress.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\progress_indicators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\DrawableList.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\ScrollBase.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\ScrollList.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\ScrollWheel.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\ScrollWheelBase.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers\ScrollWheelWithSelectionStyle.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\containers\scrollers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\AbstractButton.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\AnimatedImage.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\AnimationTextureMapper.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\Box.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\BoxWithBorder.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\Button.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\ButtonWithIcon.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\ButtonWithLabel.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\Gauge.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\Image.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\Keyboard.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\PixelDataWidget.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\RadioButton.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\RepeatButton.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\ScalableImage.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\SnapshotWidget.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\TextArea.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\TextAreaWithWildcard.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\TextureMapper.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\TiledImage.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\ToggleButton.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\TouchArea.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\VideoWidget.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\AbstractShape.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\Canvas.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\CanvasWidget.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\Circle.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\Line.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterABGR2222.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterABGR2222Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterARGB2222.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterARGB2222Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterARGB8888.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterARGB8888Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterARGB8888L8Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterBGRA2222.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterBGRA2222Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterBW.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterBWBitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterGRAY2.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterGRAY2Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterGRAY4.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterGRAY4Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB565.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB565Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB565L8Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB888.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB888Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGB888L8Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGBA2222.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterRGBA2222Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterXRGB8888.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterXRGB8888Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas\PainterXRGB8888L8Bitmap.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\AbstractDataGraph.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\Graph.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\GraphElements.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\GraphLabels.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\GraphScroll.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\GraphWrapAndClear.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph\GraphWrapAndOverwrite.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\framework\source\touchgfx\widgets\graph</Filter>
+    </ClCompile>
+    <None Include="..\Middlewares\ST\touchgfx\lib\sdl2\win32\README-SDL.txt">
+      <Filter>Source files\Middlewares\ST\touchgfx\lib\sdl2\win32</Filter>
+    </None>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\os\OSWrappers.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\ST\touchgfx\os\OSWrappers_cmsis.cpp">
+      <Filter>Source files\Middlewares\ST\touchgfx\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\diskio.c">
+      <Filter>Source files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\ff.c">
+      <Filter>Source files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c">
+      <Filter>Source files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c">
+      <Filter>Source files\Middlewares\Third_Party\FatFs\src\option</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Middlewares\Third_Party\FatFs\src\option\syscall.c">
+      <Filter>Source files\Middlewares\Third_Party\FatFs\src\option</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc\usbd_msc.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc\usbd_msc_bot.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc\usbd_msc_data.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc\usbd_msc_scsi.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h">
+      <Filter>Header files\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\cderror.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\cdjpeg.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jconfig.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jdct.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jerror.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jinclude.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jmemsys.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jmorecfg.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jpegint.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jpeglib.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\jversion.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\3rdparty\libjpeg\include\transupp.h">
+      <Filter>Header files\Middlewares\ST\touchgfx\3rdparty\libjpeg\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\common\AbstractPartition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\common\Meta.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\common\Partition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\common\TouchGFXInit.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\mvp\MVPApplication.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\mvp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\mvp\MVPHeap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\mvp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\mvp\Presenter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\mvp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\mvp\View.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\mvp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Application.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Callback.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Color.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\ConstFont.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Drawable.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\EasingEquations.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Event.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Font.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\FontManager.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\InternalFlashFont.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\JSMOCHelper.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Math3D.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Screen.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\TextProvider.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Texts.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\TextureMapTypes.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\TypedText.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\UIEventListener.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Unicode.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Utils.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\Version.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\CanvasWidgetRenderer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\Cell.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\Outline.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer\Rasterizer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\canvas_widget_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\CacheableContainer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\Container.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\ListLayout.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\ModalWindow.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\ScrollableContainer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\SlideMenu.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\Slider.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\SwipeContainer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\ZoomAnimationImage.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\AbstractButtonContainer.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\AnimatedImageButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\BoxWithBorderButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\Buttons.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\ClickButtonTrigger.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\IconButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\ImageButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\RepeatButtonTrigger.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\TextButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\TiledImageButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\ToggleButtonTrigger.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\TouchButtonTrigger.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\TwoWildcardTextButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons\WildcardTextButtonStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock\AbstractClock.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock\AnalogClock.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock\DigitalClock.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\clock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\AbstractDirectionProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\AbstractProgressIndicator.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\BoxProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\CircleProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\ImageProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\LineProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators\TextProgress.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\progress_indicators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\DrawableList.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\ScrollBase.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\ScrollList.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\ScrollWheel.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\ScrollWheelBase.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers\ScrollWheelWithSelectionStyle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\containers\scrollers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\events\ClickEvent.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\events\DragEvent.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\events\GestureEvent.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Atomic.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\BlitOp.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\BoardConfiguration.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Buttons.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Config.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\DMA.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\FlashDataReader.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\FrameBufferAllocator.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Gestures.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\GPIO.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\HAL.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\NoDMA.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\OSWrappers.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Paint.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\PaintRGB565Impl.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\PaintRGB888Impl.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\PartialFrameBufferManager.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\Types.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\hal\VideoController.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD16DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD1DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD24DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD2DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD32DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD4DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD8ABGR2222DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD8ARGB2222DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD8BGRA2222DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD8DebugPrinterBase.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd\LCD8RGBA2222DebugPrinter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins\ClickListener.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins\Draggable.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins\FadeAnimator.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins\MoveAnimator.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins\Snapper.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\mixins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms\DisplayTransformation.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms\TouchCalibration.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\BlockTransition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\CoverTransition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\NoTransition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\SlideTransition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\Transition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions\WipeTransition.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\AbstractButton.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\AnimatedImage.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\AnimationTextureMapper.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Box.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\BoxWithBorder.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Button.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\ButtonWithIcon.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\ButtonWithLabel.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Gauge.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Image.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Keyboard.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\PixelDataWidget.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\RadioButton.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\RadioButtonGroup.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\RepeatButton.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\ScalableImage.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\SnapshotWidget.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\TextArea.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\TextAreaWithWildcard.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\TextureMapper.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\TiledImage.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\ToggleButton.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\TouchArea.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\VideoWidget.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\Widget.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainter.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterABGR2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterARGB2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterARGB8888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterBGRA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterBitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterBW.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterColor.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterGRAY2.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterGRAY4.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterRGB565.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterRGB888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractPainterRGBA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\AbstractShape.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\Canvas.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\CanvasWidget.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\Circle.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\CWRUtil.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\Line.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterABGR2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterABGR2222Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterARGB2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterARGB2222Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterARGB8888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterARGB8888Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterARGB8888L8Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterBGRA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterBGRA2222Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterBW.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterBWBitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterGRAY2.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterGRAY2Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterGRAY4.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterGRAY4Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB565.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB565Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB565L8Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB888Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGB888L8Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGBA2222.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterRGBA2222Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterXRGB8888.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterXRGB8888Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\PainterXRGB8888L8Bitmap.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\Shape.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\AbstractDataGraph.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\Graph.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\GraphElements.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\GraphLabels.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\GraphScroll.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\GraphWrapAndClear.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph\GraphWrapAndOverwrite.hpp">
+      <Filter>Header files\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FatFs\src\diskio.h">
+      <Filter>Header files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FatFs\src\ff.h">
+      <Filter>Header files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FatFs\src\ff_gen_drv.h">
+      <Filter>Header files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Middlewares\Third_Party\FatFs\src\integer.h">
+      <Filter>Header files\Middlewares\Third_Party\FatFs\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\TouchGFX\App\app_touchgfx.c">
+      <Filter>Source files\TouchGFX\App</Filter>
+    </ClCompile>
+    <None Include="..\TouchGFX\generated\fonts\UnicodeListAsap_Regular_24_4.txt">
+      <Filter>Source files\TouchGFX\generated\fonts</Filter>
+    </None>
+    <None Include="..\TouchGFX\generated\fonts\UnicodeListAsap_Regular_32_4.txt">
+      <Filter>Source files\TouchGFX\generated\fonts</Filter>
+    </None>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\ApplicationFontProvider.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\CachedFont.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\FontCache.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Font_Asap_Regular_24_4bpp_0.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Font_Asap_Regular_32_4bpp_0.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\GeneratedFont.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Kerning_Asap_Regular_24_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Kerning_Asap_Regular_32_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Table_Asap_Regular_24_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\Table_Asap_Regular_32_4bpp.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\fonts\src\UnmappedDataFont.cpp">
+      <Filter>Source files\TouchGFX\generated\fonts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\gui_generated\src\common\FrontendApplicationBase.cpp">
+      <Filter>Source files\TouchGFX\generated\gui_generated\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\gui_generated\src\main_screen\MainViewBase.cpp">
+      <Filter>Source files\TouchGFX\generated\gui_generated\src\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\images\src\BitmapDatabase.cpp">
+      <Filter>Source files\TouchGFX\generated\images\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\texts\src\LanguageGb.cpp">
+      <Filter>Source files\TouchGFX\generated\texts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\texts\src\Texts.cpp">
+      <Filter>Source files\TouchGFX\generated\texts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\generated\texts\src\TypedTextDatabase.cpp">
+      <Filter>Source files\TouchGFX\generated\texts\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\common\FrontendApplication.cpp">
+      <Filter>Source files\TouchGFX\gui\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\main_screen\MainPresenter.cpp">
+      <Filter>Source files\TouchGFX\gui\src\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\main_screen\MainView.cpp">
+      <Filter>Source files\TouchGFX\gui\src\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\gui\src\model\Model.cpp">
+      <Filter>Source files\TouchGFX\gui\src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\STM32TouchController.cpp">
+      <Filter>Source files\TouchGFX\target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\TouchGFXGPIO.cpp">
+      <Filter>Source files\TouchGFX\target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\TouchGFXHAL.cpp">
+      <Filter>Source files\TouchGFX\target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\generated\OSWrappers.cpp">
+      <Filter>Source files\TouchGFX\target\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\generated\STM32DMA.cpp">
+      <Filter>Source files\TouchGFX\target\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\generated\TouchGFXConfiguration.cpp">
+      <Filter>Source files\TouchGFX\target\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TouchGFX\target\generated\TouchGFXGeneratedHAL.cpp">
+      <Filter>Source files\TouchGFX\target\generated</Filter>
+    </ClCompile>
+    <ClInclude Include="..\TouchGFX\App\app_touchgfx.h">
+      <Filter>Header files\TouchGFX\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\fonts\include\fonts\ApplicationFontProvider.hpp">
+      <Filter>Header files\TouchGFX\generated\fonts\include\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\fonts\include\fonts\CachedFont.hpp">
+      <Filter>Header files\TouchGFX\generated\fonts\include\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\fonts\include\fonts\FontCache.hpp">
+      <Filter>Header files\TouchGFX\generated\fonts\include\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\fonts\include\fonts\GeneratedFont.hpp">
+      <Filter>Header files\TouchGFX\generated\fonts\include\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\fonts\include\fonts\UnmappedDataFont.hpp">
+      <Filter>Header files\TouchGFX\generated\fonts\include\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\common\SimConstants.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp">
+      <Filter>Header files\TouchGFX\generated\gui_generated\include\gui_generated\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\images\include\BitmapDatabase.hpp">
+      <Filter>Header files\TouchGFX\generated\images\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\simulator\include\simulator\mainBase.hpp">
+      <Filter>Header files\TouchGFX\generated\simulator\include\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
+      <Filter>Header files\TouchGFX\generated\simulator\include\simulator\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\simulator\include\simulator\video\MJPEGDecoder.hpp">
+      <Filter>Header files\TouchGFX\generated\simulator\include\simulator\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
+      <Filter>Header files\TouchGFX\generated\simulator\include\simulator\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\texts\include\texts\TextKeysAndLanguages.hpp">
+      <Filter>Header files\TouchGFX\generated\texts\include\texts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\texts\include\texts\TypedTextDatabase.hpp">
+      <Filter>Header files\TouchGFX\generated\texts\include\texts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\generated\videos\include\videos\VideoDatabase.hpp">
+      <Filter>Header files\TouchGFX\generated\videos\include\videos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\common\FrontendApplication.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\common\FrontendHeap.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\main_screen\MainPresenter.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\main_screen\MainView.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\model\Model.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\gui\include\gui\model\ModelListener.hpp">
+      <Filter>Header files\TouchGFX\gui\include\gui\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\target\STM32TouchController.hpp">
+      <Filter>Header files\TouchGFX\target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\target\TouchGFXHAL.hpp">
+      <Filter>Header files\TouchGFX\target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\target\generated\STM32DMA.hpp">
+      <Filter>Header files\TouchGFX\target\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TouchGFX\target\generated\TouchGFXGeneratedHAL.hpp">
+      <Filter>Header files\TouchGFX\target\generated</Filter>
+    </ClInclude>
+    <None Include="..\gcc\STM32F429ZITX_FLASH.ld">
+      <Filter>Source files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Inc\nema_hal_threadx.c">
+      <Filter>Source files\Core\Inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\main.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32f4xx_hal_msp.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32f4xx_hal_timebase_tim.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32f4xx_it.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\syscalls.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\sysmem.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\system_stm32f4xx.c">
+      <Filter>Source files\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FATFS\App\fatfs.c">
+      <Filter>Source files\FATFS\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FATFS\Target\user_diskio.c">
+      <Filter>Source files\FATFS\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\USB_DEVICE\App\usbd_desc.c">
+      <Filter>Source files\USB_DEVICE\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\USB_DEVICE\App\usbd_storage_if.c">
+      <Filter>Source files\USB_DEVICE\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\USB_DEVICE\App\usb_device.c">
+      <Filter>Source files\USB_DEVICE\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\USB_DEVICE\Target\usbd_conf.c">
+      <Filter>Source files\USB_DEVICE\Target</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Inc\main.h">
+      <Filter>Header files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\stm32f4xx_hal_conf.h">
+      <Filter>Header files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\stm32f4xx_it.h">
+      <Filter>Header files\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FATFS\App\fatfs.h">
+      <Filter>Header files\FATFS\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FATFS\Target\ffconf.h">
+      <Filter>Header files\FATFS\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FATFS\Target\user_diskio.h">
+      <Filter>Header files\FATFS\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\USB_DEVICE\App\usbd_desc.h">
+      <Filter>Header files\USB_DEVICE\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\USB_DEVICE\App\usbd_storage_if.h">
+      <Filter>Header files\USB_DEVICE\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\USB_DEVICE\App\usb_device.h">
+      <Filter>Header files\USB_DEVICE\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\USB_DEVICE\Target\usbd_conf.h">
+      <Filter>Header files\USB_DEVICE\Target</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Middlewares\ST\touchgfx\lib\core\cortex_m4f\gcc\libtouchgfx.a">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="..\Middlewares\ST\touchgfx\lib\core\cortex_m4f\gcc\libtouchgfx-float-abi-hard.a">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
