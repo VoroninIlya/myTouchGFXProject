@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<TestFrameworkDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>com.sysprogs.unittest.CppUTest</ID>
+  <Name>CppUTest</Name>
+  <Version>3.8r2</Version>
+  <CPPOnly>true</CPPOnly>
+  <Common>
+    <AdditionalSourceFiles>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/CommandLineArguments.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/CommandLineTestRunner.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/JUnitTestOutput.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/MemoryLeakDetector.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/MemoryLeakWarningPlugin.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/SimpleMutex.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/SimpleString.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TeamCityTestOutput.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestFailure.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestFilter.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestHarness_c.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestMemoryAllocator.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestOutput.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestPlugin.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestRegistry.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestResult.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/TestTestingFixture.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTest/Utest.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/Platforms/SysprogsTestHooks.cpp</string>
+    </AdditionalSourceFiles>
+    <AdditionalHeaderFiles>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/CommandLineArguments.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/CommandLineTestRunner.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/CppUTestConfig.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/CppUTestGeneratedConfig.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/JUnitTestOutput.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/MemoryLeakDetector.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/MemoryLeakDetectorMallocMacros.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/MemoryLeakDetectorNewMacros.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/MemoryLeakWarningPlugin.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/PlatformSpecificFunctions.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/PlatformSpecificFunctions_c.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/SimpleMutex.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/SimpleString.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/StandardCLibrary.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TeamCityTestOutput.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestFailure.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestFilter.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestHarness.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestHarness_c.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestMemoryAllocator.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestOutput.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestPlugin.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestRegistry.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestResult.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/TestTestingFixture.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/Utest.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTest/UtestMacros.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/Platforms/SysprogsTestHooks.h</string>
+    </AdditionalHeaderFiles>
+    <AdditionalIncludeDirs>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/Platforms</string>
+    </AdditionalIncludeDirs>
+    <ConfigurableProperties>
+      <PropertyGroups>
+        <PropertyGroup>
+          <Properties>
+            <PropertyEntry xsi:type="Integral">
+              <Name>Test time-out (seconds)</Name>
+              <UniqueID>com.sysprogs.testsettings.timeout</UniqueID>
+              <OmitPrefixIfEmpty>false</OmitPrefixIfEmpty>
+              <Description>Specifies the maximum delay</Description>
+              <DefaultValue>1800</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>86400</MaxValue>
+              <Increment>1</Increment>
+            </PropertyEntry>
+          </Properties>
+          <CollapsedByDefault>false</CollapsedByDefault>
+        </PropertyGroup>
+      </PropertyGroups>
+    </ConfigurableProperties>
+    <Samples>
+      <TestFrameworkSample>
+        <UserFriendlyName>Basic CppUTest Demo</UserFriendlyName>
+        <Files>
+          <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/samples/$$PROJECTNAME$$Tests.cpp</string>
+        </Files>
+      </TestFrameworkSample>
+    </Samples>
+    <IncludeLines>
+      <string>#include &lt;CppUTest/CommandLineTestRunner.h&gt;</string>
+    </IncludeLines>
+    <RequiredFunctions>
+      <string>_ZN21CommandLineTestRunner11RunAllTestsEiPPKc</string>
+    </RequiredFunctions>
+    <TestDiscoverers>
+      <TestDiscoverer xsi:type="SymbolBasedScopeDiscoverer">
+        <TargetDemangledNames>false</TargetDemangledNames>
+        <Discoverers>
+          <TestDiscoverer xsi:type="SymbolBasedScopedTestDiscoverer">
+            <TargetDemangledNames>true</TargetDemangledNames>
+            <TestSymbolRegex>^TEST_$(Scope)_(.*)_TestShell_instance$</TestSymbolRegex>
+            <UniqueNameFormat>{0}::{2}</UniqueNameFormat>
+            <UserFriendlyNameFormat>{0}::{2}</UserFriendlyNameFormat>
+            <ReferenceSymbolName>main</ReferenceSymbolName>
+            <LocationSymbolFormat />
+          </TestDiscoverer>
+        </Discoverers>
+        <ScopeSymbolRegex>^_ZTV[0-9]+TEST_GROUP_CppUTestGroup(.*)$</ScopeSymbolRegex>
+        <ScopeSymbolGroup>1</ScopeSymbolGroup>
+        <ExpectedSymbolType>0</ExpectedSymbolType>
+      </TestDiscoverer>
+    </TestDiscoverers>
+    <TestHooks>
+      <TestHook xsi:type="TestsCompletedHook">
+        <Expression>SysprogsTestHook_TestsCompleted</Expression>
+        <Required>true</Required>
+        <SkippedFrames>0</SkippedFrames>
+      </TestHook>
+      <TestHook xsi:type="GenericFailHook">
+        <Expression>SysprogsTestHook_TestFailed</Expression>
+        <Required>true</Required>
+        <SkippedFrames>3</SkippedFrames>
+        <AbortFurtherTests>false</AbortFurtherTests>
+      </TestHook>
+    </TestHooks>
+  </Common>
+  <Embedded>
+    <AdditionalSourceFiles>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/Platforms/Embedded/UtestPlatformEmbedded.cpp</string>
+    </AdditionalSourceFiles>
+    <AdditionalHeaderFiles />
+    <AdditionalIncludeDirs>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/platforms/Embedded</string>
+    </AdditionalIncludeDirs>
+    <AdditionalPreprocessorMacros>
+      <string>CPPUTEST_STD_CPP_LIB_DISABLED</string>
+      <string>SYSPROGS_TEST_PLATFORM_EMBEDDED</string>
+    </AdditionalPreprocessorMacros>
+    <InitializationLines>
+      <string>const char *p = "";</string>
+      <string>CommandLineTestRunner::RunAllTests(0, &amp;p);</string>
+    </InitializationLines>
+    <TestSelection xsi:type="HookBasedTestSelection">
+      <HookedEntry>SysprogsTestHook_SelectTests</HookedEntry>
+      <TestCountExpression>testCount</TestCountExpression>
+      <AddressOfTestArrayExpression>pTests</AddressOfTestArrayExpression>
+    </TestSelection>
+    <TestReportChannel xsi:type="SemihostingBasedTestChannel">
+      <ChannelNumber>0</ChannelNumber>
+    </TestReportChannel>
+    <RequiredFrameworks>
+      <string>com.sysprogs.embedded.semihosting_and_profiler@1.1</string>
+    </RequiredFrameworks>
+  </Embedded>
+  <Linux>
+    <AdditionalSourceFiles>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/CodeMemoryReportFormatter.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/IEEE754ExceptionsPlugin.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MemoryReportAllocator.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MemoryReporterPlugin.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MemoryReportFormatter.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockActualCall.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockExpectedCall.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockExpectedCallsList.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockFailure.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockNamedValue.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockSupport.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockSupportPlugin.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/MockSupport_c.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/src/CppUTestExt/OrderedTest.cpp</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/Platforms/Linux/UtestPlatform.cpp</string>
+    </AdditionalSourceFiles>
+    <AdditionalHeaderFiles>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/CodeMemoryReportFormatter.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/GMock.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/GTest.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/GTestConvertor.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/IEEE754ExceptionsPlugin.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MemoryReportAllocator.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MemoryReporterPlugin.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MemoryReportFormatter.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockActualCall.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockCheckedActualCall.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockCheckedExpectedCall.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockExpectedCall.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockExpectedCallsList.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockFailure.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockNamedValue.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockSupport.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockSupportPlugin.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/MockSupport_c.h</string>
+      <string>$$SYS:TESTFW_BASE$$/com.sysprogs.unittest.CppUTest/include/CppUTestExt/OrderedTest.h</string>
+    </AdditionalHeaderFiles>
+    <AdditionalPreprocessorMacros />
+    <InitializationLines>
+      <string>CommandLineTestRunner::RunAllTests(argc, argv);</string>
+    </InitializationLines>
+    <TestSelection xsi:type="ArgumentBasedTestSelection">
+      <GlobalArgumentTemplate>$(PerTestArguments)</GlobalArgumentTemplate>
+      <PerTestArgumentTemplate>"TEST($(1), $(2))"</PerTestArgumentTemplate>
+      <TestIDRegex>(.*)::(.*)</TestIDRegex>
+    </TestSelection>
+    <TestReportChannel xsi:type="PipeBasedTestChannelWithEnv">
+      <PipeTimestampVariableName>g_SysprogsTestReportTimestamp</PipeTimestampVariableName>
+      <EnvironmentVariableName>SYSPROGS_TEST_REPORTING_PIPE</EnvironmentVariableName>
+    </TestReportChannel>
+  </Linux>
+  <AndroidCommandLine>
+    <TestDiscoverers>
+      <TestDiscoverer xsi:type="SymbolBasedScopeDiscoverer">
+        <TargetDemangledNames>false</TargetDemangledNames>
+        <Discoverers>
+          <TestDiscoverer xsi:type="SymbolBasedScopedTestDiscoverer">
+            <TargetDemangledNames>true</TargetDemangledNames>
+            <TestSymbolRegex>^TEST_$(Scope)_(.*)_TestShell_instance$</TestSymbolRegex>
+            <UniqueNameFormat>{0}::{2}</UniqueNameFormat>
+            <UserFriendlyNameFormat>{0}::{2}</UserFriendlyNameFormat>
+            <ReferenceSymbolName>main</ReferenceSymbolName>
+            <LocationSymbolFormat />
+          </TestDiscoverer>
+        </Discoverers>
+        <ScopeSymbolRegex>^externTestGroup(.*)$</ScopeSymbolRegex>
+        <ScopeSymbolGroup>1</ScopeSymbolGroup>
+        <ExpectedSymbolType>0</ExpectedSymbolType>
+      </TestDiscoverer>
+    </TestDiscoverers>
+    <TestReportChannel xsi:type="LocalSocketTestChannelWithEnv">
+      <PipeTimestampVariableName>g_SysprogsTestReportTimestamp</PipeTimestampVariableName>
+      <EnvironmentVariableName>SYSPROGS_TEST_REPORTING_SOCKET</EnvironmentVariableName>
+      <SocketReadyHook>SysprogsTestHook_ReportingSocketReady</SocketReadyHook>
+    </TestReportChannel>
+    <InheritsFromLinux>true</InheritsFromLinux>
+    <UsesSTL>true</UsesSTL>
+    <UsesExceptions>true</UsesExceptions>
+  </AndroidCommandLine>
+  <AndroidApp>
+    <InitializationLines>
+      <string>const char *p = "";</string>
+      <string>CommandLineTestRunner::RunAllTests(0, &amp;p);</string>
+    </InitializationLines>
+    <TestDiscoverers>
+      <TestDiscoverer xsi:type="SymbolBasedScopeDiscoverer">
+        <TargetDemangledNames>false</TargetDemangledNames>
+        <Discoverers>
+          <TestDiscoverer xsi:type="SymbolBasedScopedTestDiscoverer">
+            <TargetDemangledNames>true</TargetDemangledNames>
+            <TestSymbolRegex>^TEST_$(Scope)_(.*)_TestShell_instance$</TestSymbolRegex>
+            <UniqueNameFormat>{0}::{2}</UniqueNameFormat>
+            <UserFriendlyNameFormat>{0}::{2}</UserFriendlyNameFormat>
+            <ReferenceSymbolName>main</ReferenceSymbolName>
+            <LocationSymbolFormat />
+          </TestDiscoverer>
+        </Discoverers>
+        <ScopeSymbolRegex>^externTestGroup(.*)$</ScopeSymbolRegex>
+        <ScopeSymbolGroup>1</ScopeSymbolGroup>
+        <ExpectedSymbolType>0</ExpectedSymbolType>
+      </TestDiscoverer>
+    </TestDiscoverers>
+    <TestSelection xsi:type="HookBasedTestSelectionViaNames">
+      <HookedEntry>SysprogsTestHook_SelectTests</HookedEntry>
+      <TestCountExpression>testCount</TestCountExpression>
+      <AddressOfTestArrayExpression>pTests</AddressOfTestArrayExpression>
+      <TestNameExpression>{((UtestShell *){&amp;})-&gt;group_:s}::{((UtestShell *){&amp;})-&gt;name_:s}</TestNameExpression>
+    </TestSelection>
+    <TestReportChannel xsi:type="LocalSocketTestChannelWithHook">
+      <PipeTimestampVariableName>g_SysprogsTestReportTimestamp</PipeTimestampVariableName>
+      <ChannelSelectionHook>SysprogsTestHook_QueryPipeName</ChannelSelectionHook>
+      <PipeNameAreaAddress>&amp;pipeName</PipeNameAreaAddress>
+      <SocketReadyHook>SysprogsTestHook_ReportingSocketReady</SocketReadyHook>
+    </TestReportChannel>
+    <InheritsFromLinux>true</InheritsFromLinux>
+    <UsesSTL>true</UsesSTL>
+    <UsesExceptions>true</UsesExceptions>
+  </AndroidApp>
+  <FileConditions />
+</TestFrameworkDefinition>
