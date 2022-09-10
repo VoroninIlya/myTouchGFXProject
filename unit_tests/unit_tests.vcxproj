@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{1E834CDF-20E8-4B58-A619-DC2FCE2338F5}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="VisualGDBPackageDefinitions">
+    <ToolchainID>com.sysprogs.toolchain.default-gcc</ToolchainID>
+  </PropertyGroup>
+  <ImportGroup Label="VisualGDBFindComponents">
+    <Import Project="$(LOCALAPPDATA)\VisualGDB\FindComponents.props" />
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeIncludeSearchPath>\\wsl$\Ubuntu\usr\include\c++\9;\\wsl$\Ubuntu\usr\include\x86_64-linux-gnu\c++\9;\\wsl$\Ubuntu\usr\include\c++\9\backward;\\wsl$\Ubuntu\usr\lib\gcc\x86_64-linux-gnu\9\include;\\wsl$\Ubuntu\usr\local\include;\\wsl$\Ubuntu\usr\include\x86_64-linux-gnu;\\wsl$\Ubuntu\usr\include;$(TESTFW_BASE)/com.sysprogs.unittest.CppUTest/include;$(TESTFW_BASE)/com.sysprogs.unittest.CppUTest/Platforms;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)unit_tests-Debug.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeIncludeSearchPath>\\wsl$\Ubuntu\usr\include\c++\9;\\wsl$\Ubuntu\usr\include\x86_64-linux-gnu\c++\9;\\wsl$\Ubuntu\usr\include\c++\9\backward;\\wsl$\Ubuntu\usr\lib\gcc\x86_64-linux-gnu\9\include;\\wsl$\Ubuntu\usr\local\include;\\wsl$\Ubuntu\usr\include\x86_64-linux-gnu;\\wsl$\Ubuntu\usr\include;$(TESTFW_BASE)/com.sysprogs.unittest.CppUTest/include;$(TESTFW_BASE)/com.sysprogs.unittest.CppUTest/Platforms;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(ProjectDir)\gcc_Release.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakePreprocessorDefinitions>__VisualGDB_CFG_Release;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)"  "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeOutput>$(ProjectDir)unit_tests-Release.vgdbsettings</NMakeOutput>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\CodeMemoryReportFormatter.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GMock.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GTest.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GTestConvertor.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\IEEE754ExceptionsPlugin.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReportAllocator.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReporterPlugin.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReportFormatter.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockActualCall.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockCheckedActualCall.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockCheckedExpectedCall.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockExpectedCall.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockExpectedCallsList.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockFailure.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockNamedValue.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupport.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupportPlugin.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupport_c.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\OrderedTest.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CommandLineArguments.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CommandLineTestRunner.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CppUTestConfig.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CppUTestGeneratedConfig.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\JUnitTestOutput.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetector.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetectorMallocMacros.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetectorNewMacros.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakWarningPlugin.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\PlatformSpecificFunctions.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\PlatformSpecificFunctions_c.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\SimpleMutex.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\SimpleString.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\StandardCLibrary.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TeamCityTestOutput.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestFailure.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestFilter.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestHarness.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestHarness_c.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestMemoryAllocator.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestOutput.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestPlugin.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestRegistry.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestResult.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestTestingFixture.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\Utest.h" />
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\UtestMacros.h" />
+    <ClInclude Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture.h" />
+    <ClInclude Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture_internals.h" />
+    <ClInclude Include="..\TestFrameworks\unity\extras\memory\src\unity_memory.h" />
+    <ClInclude Include="..\TestFrameworks\unity\src\unity.h" />
+    <ClInclude Include="..\TestFrameworks\unity\src\unity_internals.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\CodeMemoryReportFormatter.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\IEEE754ExceptionsPlugin.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReportAllocator.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReporterPlugin.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReportFormatter.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockActualCall.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockExpectedCall.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockExpectedCallsList.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockFailure.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockNamedValue.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupport.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupportPlugin.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupport_c.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\OrderedTest.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\CommandLineArguments.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\CommandLineTestRunner.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\JUnitTestOutput.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\MemoryLeakDetector.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\MemoryLeakWarningPlugin.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\SimpleMutex.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\SimpleString.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TeamCityTestOutput.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestFailure.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestFilter.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestHarness_c.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestMemoryAllocator.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestOutput.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestPlugin.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestRegistry.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestResult.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestTestingFixture.cpp" />
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\Utest.cpp" />
+    <ClCompile Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture.c" />
+    <ClCompile Include="..\TestFrameworks\unity\extras\memory\src\unity_memory.c" />
+    <ClCompile Include="..\TestFrameworks\unity\src\unity.c" />
+    <ClCompile Include="unit_tests.cpp" />
+    <ClCompile Include="unit_testsTests.cpp" />
+    <None Include="Makefile" />
+    <None Include="debug.mak" />
+    <None Include="release.mak" />
+    <None Include="TestFramework.mak" />
+    <None Include="unit_tests-Debug.vgdbsettings" />
+    <None Include="unit_tests-Release.vgdbsettings" />
+  </ItemGroup>
+</Project>

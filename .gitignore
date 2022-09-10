@@ -23,3 +23,7 @@ bootloader/MDK-ARM/DebugConfig
 bootloader/MDK-ARM/list
 bootloader/MDK-ARM/obj
 bootloader/MDK-ARM/RTE
+unit_tests/.vs
+unit_tests/.visualgdb
+unit_tests/Debug
+unit_tests/Release

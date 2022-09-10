@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{14a06c9c-ff04-4aa3-a633-8b37c98b527a}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d4dc72be-7d4c-40ad-ba9c-a190a1af78a3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{878e418e-bd61-4ddd-a70f-09a21c438869}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Test Framework">
+      <UniqueIdentifier>{9d9dc18e-4e39-42cb-aabc-7016e5f5ab02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Test Framework">
+      <UniqueIdentifier>{131331ed-ecaf-452c-9886-d04e1ceec45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{1a5c72ce-1431-4569-af3d-64ade25889e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{e1840f65-d594-4eac-a8a3-7baac607b250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Test Framework\cpputest">
+      <UniqueIdentifier>{1f077d7f-9098-4c14-82b6-2d23dec39bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Test Framework\unity">
+      <UniqueIdentifier>{a59d8ca9-d9b9-4147-814c-d65ffbdb6427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Test Framework\cpputest">
+      <UniqueIdentifier>{434d2a03-cc36-4309-93dd-0ae477c4d411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Test Framework\unity">
+      <UniqueIdentifier>{b18f9699-0057-4e14-9158-254a9b1f974c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="unit_tests.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_testsTests.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="unit_tests-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="unit_tests-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\CommandLineArguments.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\CommandLineTestRunner.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\JUnitTestOutput.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\MemoryLeakDetector.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\MemoryLeakWarningPlugin.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\SimpleMutex.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\SimpleString.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TeamCityTestOutput.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestFailure.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestFilter.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestHarness_c.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestMemoryAllocator.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestOutput.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestPlugin.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestRegistry.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestResult.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\TestTestingFixture.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTest\Utest.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\CodeMemoryReportFormatter.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\IEEE754ExceptionsPlugin.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReportAllocator.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReporterPlugin.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MemoryReportFormatter.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockActualCall.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockExpectedCall.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockExpectedCallsList.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockFailure.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockNamedValue.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupport.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupport_c.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\MockSupportPlugin.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\cpputest\src\CppUTestExt\OrderedTest.cpp">
+      <Filter>Source files\Test Framework\cpputest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\unity\extras\memory\src\unity_memory.c">
+      <Filter>Source files\Test Framework\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture.c">
+      <Filter>Source files\Test Framework\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TestFrameworks\unity\src\unity.c">
+      <Filter>Source files\Test Framework\unity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="TestFramework.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CommandLineArguments.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CommandLineTestRunner.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CppUTestConfig.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\CppUTestGeneratedConfig.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\JUnitTestOutput.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetector.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetectorMallocMacros.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakDetectorNewMacros.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\MemoryLeakWarningPlugin.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\PlatformSpecificFunctions.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\PlatformSpecificFunctions_c.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\SimpleMutex.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\SimpleString.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\StandardCLibrary.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TeamCityTestOutput.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestFailure.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestFilter.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestHarness.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestHarness_c.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestMemoryAllocator.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestOutput.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestPlugin.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestRegistry.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestResult.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\TestTestingFixture.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\Utest.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTest\UtestMacros.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\CodeMemoryReportFormatter.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GMock.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GTest.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\GTestConvertor.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\IEEE754ExceptionsPlugin.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReportAllocator.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReporterPlugin.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MemoryReportFormatter.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockActualCall.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockCheckedActualCall.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockCheckedExpectedCall.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockExpectedCall.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockExpectedCallsList.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockFailure.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockNamedValue.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupport.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupport_c.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\MockSupportPlugin.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\cpputest\include\CppUTestExt\OrderedTest.h">
+      <Filter>Header files\Test Framework\cpputest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\unity\src\unity.h">
+      <Filter>Header files\Test Framework\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\unity\src\unity_internals.h">
+      <Filter>Header files\Test Framework\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture.h">
+      <Filter>Header files\Test Framework\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\unity\extras\fixture\src\unity_fixture_internals.h">
+      <Filter>Header files\Test Framework\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestFrameworks\unity\extras\memory\src\unity_memory.h">
+      <Filter>Header files\Test Framework\unity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
