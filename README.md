@@ -4,8 +4,11 @@
 2. To change used OS to Azure ThreadX was created CubeMX_generated project initially from CubeMX and after that was generated GUI in TouchGFX designer. To build this project was necessary to do some code und makefile fixes.
 3. Bootloader project was generated from CubeMX and uses TouchGFX without any RTOS
 
+For bootloader, to get independent from any paid tools, vs code + cortex-debug + cmake were setup. Setup has been made according to instruction: https://github.com/MaJerle/stm32-cube-cmake-vscode
+
 ## FRAMEWORKS USED FOR PROJECT GENERATION
 
 1. TouchGFX Designer v4.20.0
 2. STM32CubeMX v6.6.1
 3. Visual Studio 2019 + VisualGDB v5.6R4
+4. Visual Studio Code + CMake + Cortex-Debug
